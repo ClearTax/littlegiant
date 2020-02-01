@@ -1,6 +1,7 @@
 # littlegiant
 
-The little UI Framework
+<div style="text-align:center"><img src="./docs/static/img/logo.svg" /><br />The little UI Framework
+</div>
 
 ## How to run
 
