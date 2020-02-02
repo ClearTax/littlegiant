@@ -3,8 +3,8 @@ const package = require("../package.json");
 module.exports = {
   title: package.name,
   tagline: package.description,
-  url: package.homepage,
-  baseUrl: "/",
+  url: 'https://cleartax.github.io',
+  baseUrl: "/littlegiant/",
   favicon: "img/favicon.ico",
   organizationName: "cleartax",
   projectName: "littlegiant",
