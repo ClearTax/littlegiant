@@ -4,9 +4,9 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-## Markdown Syntax
+## Install
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## Usage
 
 ```html live
 <button class="lg-button">Hello</button>
