@@ -1,8 +1,10 @@
 button.lg-button {
   background: goldenrod;
-  width: 100px;
+  width: auto;
   height: 48px;
   outline: none;
   border: none;
   font-size: 32px;
-  color: white; }
+  color: white;
+  -webkit-transform: matrix();
+          transform: matrix(); }
