@@ -3,18 +3,17 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
-@import url("../../../css/littlegiant.css");
+@import url("../../../css/littlegiant.min.css");
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2BCF76;
+  --ifm-color-primary: #2bcf76;
   --ifm-color-primary-dark: #169451;
-  --ifm-color-primary-darker: #00592B;
-  --ifm-color-primary-darkest: #00592B;
-  --ifm-color-primary-light: #7FE3AD;
-  --ifm-color-primary-lighter: #D2F8E3;
-  --ifm-color-primary-lightest: #D2F8E3;
+  --ifm-color-primary-darker: #00592b;
+  --ifm-color-primary-darkest: #00592b;
+  --ifm-color-primary-light: #7fe3ad;
+  --ifm-color-primary-lighter: #d2f8e3;
+  --ifm-color-primary-lightest: #d2f8e3;
   --ifm-code-font-size: 100%;
 }
 

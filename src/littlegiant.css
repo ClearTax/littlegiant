@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.dhruv {
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
