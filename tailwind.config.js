@@ -81,5 +81,12 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [],
+  corePlugins: {
+    accessibility: false,
+    appearance: false,
+    fill: false,
+    stroke: false,
+    tableLayout: false
+  }
 };

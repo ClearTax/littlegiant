@@ -634,58 +634,6 @@ video {
   }
 }
 
-.sr-only{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-.not-sr-only{
-  position: static;
-  width: auto;
-  height: auto;
-  padding: 0;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-  white-space: normal;
-}
-
-.focus\:sr-only:focus{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-.focus\:not-sr-only:focus{
-  position: static;
-  width: auto;
-  height: auto;
-  padding: 0;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-  white-space: normal;
-}
-
-.appearance-none{
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
 .bg-fixed{
   background-attachment: fixed;
 }
@@ -3067,14 +3015,6 @@ video {
   box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
 }
 
-.table-auto{
-  table-layout: auto;
-}
-
-.table-fixed{
-  table-layout: fixed;
-}
-
 .text-left{
   text-align: left;
 }
@@ -3597,58 +3537,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:sr-only{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .sm\:not-sr-only{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .sm\:focus\:sr-only:focus{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .sm\:focus\:not-sr-only:focus{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .sm\:appearance-none{
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  }
-
   .sm\:bg-fixed{
     background-attachment: fixed;
   }
@@ -6030,14 +5918,6 @@ video {
     box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
   }
 
-  .sm\:table-auto{
-    table-layout: auto;
-  }
-
-  .sm\:table-fixed{
-    table-layout: fixed;
-  }
-
   .sm\:text-left{
     text-align: left;
   }
@@ -6561,58 +6441,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:sr-only{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .md\:not-sr-only{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .md\:focus\:sr-only:focus{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .md\:focus\:not-sr-only:focus{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .md\:appearance-none{
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  }
-
   .md\:bg-fixed{
     background-attachment: fixed;
   }
@@ -8994,14 +8822,6 @@ video {
     box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
   }
 
-  .md\:table-auto{
-    table-layout: auto;
-  }
-
-  .md\:table-fixed{
-    table-layout: fixed;
-  }
-
   .md\:text-left{
     text-align: left;
   }
@@ -9525,58 +9345,6 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:sr-only{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .lg\:not-sr-only{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .lg\:focus\:sr-only:focus{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .lg\:focus\:not-sr-only:focus{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .lg\:appearance-none{
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  }
-
   .lg\:bg-fixed{
     background-attachment: fixed;
   }
@@ -11958,14 +11726,6 @@ video {
     box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
   }
 
-  .lg\:table-auto{
-    table-layout: auto;
-  }
-
-  .lg\:table-fixed{
-    table-layout: fixed;
-  }
-
   .lg\:text-left{
     text-align: left;
   }
@@ -12489,58 +12249,6 @@ video {
 }
 
 @media (min-width: 1280px){
-  .xl\:sr-only{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .xl\:not-sr-only{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .xl\:focus\:sr-only:focus{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-
-  .xl\:focus\:not-sr-only:focus{
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
-  .xl\:appearance-none{
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  }
-
   .xl\:bg-fixed{
     background-attachment: fixed;
   }
@@ -14920,14 +14628,6 @@ video {
 
   .xl\:focus\:shadow-md:focus{
     box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
-  }
-
-  .xl\:table-auto{
-    table-layout: auto;
-  }
-
-  .xl\:table-fixed{
-    table-layout: fixed;
   }
 
   .xl\:text-left{
