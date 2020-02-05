@@ -6,21 +6,6 @@ module.exports = {
         200: "#2F89FC",
         300: "#185EB8"
       },
-      green: {
-        100: "#7FE3AD",
-        200: "#2BCF76",
-        300: "#169451"
-      },
-      orange: {
-        100: "#FFC194",
-        200: "#FE9D54",
-        300: "#B9642A"
-      },
-      grey: {
-        100: "#CFD4DD",
-        200: "#ADB1BB",
-        300: "#8B8F99"
-      },
       white: "#ffffff",
       black: "#000000"
     },
@@ -88,5 +73,6 @@ module.exports = {
     fill: false,
     stroke: false,
     tableLayout: false
-  }
+  },
+  prefix: 'lil-'
 };
