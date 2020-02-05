@@ -13,5 +13,5 @@ sidebar_label: Getting Started
 ## Usage
 
 ```html live
-<button class="button bg-blue-300">Hello</button>
+<button class="lil-button lil-bg-blue-300 lil-text-xl lil-text-white lil-p-md lil-rounded lil-rounded-lg lil-px-lg">Hello</button>
 ```
