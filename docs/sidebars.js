@@ -6,7 +6,15 @@
  */
 
 module.exports = {
-  someSidebar: {
-    Docusaurus: ["getting-started"]
+  docs: {
+    'Getting Started': ['getting-started'],
+    'Components': [
+      'grid',
+      {
+        type: 'category',
+        label: 'Typography',
+        items: ['font-size', 'font-color', 'font-weight', 'line-height']
+      }
+    ]
   }
 };
