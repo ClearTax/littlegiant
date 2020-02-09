@@ -9,12 +9,6 @@ module.exports = {
       white: "#ffffff",
       black: "#000000"
     },
-    spacing: {
-      sm: "4px",
-      md: "8px",
-      lg: "16px",
-      xl: "24px"
-    },
     borderRadius: {
       sm: "2px",
       md: "4px",
@@ -38,14 +32,6 @@ module.exports = {
     },
     fill: false,
     fontFamily: false,
-    fontSize: {
-      xs: ".75rem",
-      sm: ".875rem",
-      base: "1rem",
-      lg: "1.25rem",
-      xl: "1.5rem",
-      "2xl": "2rem"
-    },
     fontWeight: {
       light: 300,
       normal: 400,
@@ -69,7 +55,6 @@ module.exports = {
   plugins: [],
   corePlugins: {
     accessibility: false,
-    appearance: false,
     fill: false,
     stroke: false,
     tableLayout: false
