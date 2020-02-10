@@ -1,7 +1,9 @@
 const package = require("../package.json");
 
+const title = 'LittleGiant';
+
 module.exports = {
-  title: package.name,
+  title,
   tagline: package.description,
   url: 'https://cleartax.github.io',
   baseUrl: "/littlegiant/",
@@ -11,7 +13,7 @@ module.exports = {
   themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
     navbar: {
-      title: package.name,
+      title,
       logo: {
         alt: `${package.name} logo`,
         src: "img/logo.svg"
