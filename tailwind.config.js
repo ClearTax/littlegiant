@@ -6,6 +6,13 @@ module.exports = {
         200: "#2F89FC",
         300: "#185EB8"
       },
+      grey: {
+        100: "#FAFBFF",
+        200: "#CFD4DD",
+        300: "#ADB1BB",
+        400: "#8B8F99",
+        500: "#686D77"
+      },
       white: "#ffffff",
       black: "#000000"
     },
@@ -59,5 +66,5 @@ module.exports = {
     stroke: false,
     tableLayout: false
   },
-  prefix: 'lil-'
+  prefix: "lil-"
 };
