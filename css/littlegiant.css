@@ -625,12 +625,6 @@ h4 {
   width: 100%;
 }
 
-@media (min-width: 640px){
-  .lil-container{
-    max-width: 640px;
-  }
-}
-
 @media (min-width: 768px){
   .lil-container{
     max-width: 768px;
@@ -5165,7 +5159,7 @@ h4 {
   z-index: 20;
 }
 
-@media (min-width: 640px){
+@media (max-width: 768px){
   .sm\:lil-appearance-none{
     -webkit-appearance: none;
        -moz-appearance: none;

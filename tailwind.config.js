@@ -61,6 +61,14 @@ module.exports = {
       loose: 1.75
     },
     opacity: false,
+    screens: {
+      'sm': {
+        'max': '768px'
+      },
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px'
+    },
     stroke: false,
     zIndex: {
       0: 0,
