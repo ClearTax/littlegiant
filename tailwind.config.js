@@ -2,9 +2,11 @@ module.exports = {
   theme: {
     colors: {
       blue: {
+        50: "#CFE4FF",
         100: "#7FB7FE",
         200: "#2F89FC",
-        300: "#185EB8"
+        300: "#185EB8",
+        400: "#003273"
       },
       green: {
         100: "#7FE3AD",
@@ -62,12 +64,12 @@ module.exports = {
     },
     opacity: false,
     screens: {
-      'sm': {
-        'max': '768px'
+      sm: {
+        max: "768px"
       },
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px'
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px"
     },
     stroke: false,
     zIndex: {
