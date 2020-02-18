@@ -66,8 +66,8 @@ module.exports = {
     letterSpacing: false,
     lineHeight: {
       none: 1,
-      tight: 1.25,
-      loose: 1.75
+      tight: 1.2,
+      loose: 1.6
     },
     opacity: false,
     screens: {

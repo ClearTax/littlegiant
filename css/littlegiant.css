@@ -1964,11 +1964,11 @@ h4 {
 }
 
 .lil-leading-tight{
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .lil-leading-loose{
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
 .lil-list-inside{
@@ -6949,11 +6949,11 @@ h4 {
   }
 
   .sm\:lil-leading-tight{
-    line-height: 1.25;
+    line-height: 1.2;
   }
 
   .sm\:lil-leading-loose{
-    line-height: 1.75;
+    line-height: 1.6;
   }
 
   .sm\:lil-list-inside{
@@ -11935,11 +11935,11 @@ h4 {
   }
 
   .md\:lil-leading-tight{
-    line-height: 1.25;
+    line-height: 1.2;
   }
 
   .md\:lil-leading-loose{
-    line-height: 1.75;
+    line-height: 1.6;
   }
 
   .md\:lil-list-inside{
@@ -16921,11 +16921,11 @@ h4 {
   }
 
   .lg\:lil-leading-tight{
-    line-height: 1.25;
+    line-height: 1.2;
   }
 
   .lg\:lil-leading-loose{
-    line-height: 1.75;
+    line-height: 1.6;
   }
 
   .lg\:lil-list-inside{
@@ -21907,11 +21907,11 @@ h4 {
   }
 
   .xl\:lil-leading-tight{
-    line-height: 1.25;
+    line-height: 1.2;
   }
 
   .xl\:lil-leading-loose{
-    line-height: 1.75;
+    line-height: 1.6;
   }
 
   .xl\:lil-list-inside{
