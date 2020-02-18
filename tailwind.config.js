@@ -47,8 +47,8 @@ module.exports = {
       xl: "4px"
     },
     boxShadow: {
-      sm: "0 8px 13px rgba(70, 74, 85, 0.16)",
-      md: "0 13px 22px rgba(70, 74, 85, 0.16)",
+      sm: "0 8px 13px rgba(70, 74, 85, 0.08)",
+      md: "0 13px 22px rgba(70, 74, 85, 0.08)",
       lg: "0 0 34px rgba(70, 74, 85, 0.10)"
     },
     cursor: {

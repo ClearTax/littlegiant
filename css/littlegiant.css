@@ -4899,11 +4899,11 @@ h4 {
 }
 
 .lil-shadow-sm{
-  box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+  box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
 }
 
 .lil-shadow-md{
-  box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+  box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
 }
 
 .lil-shadow-lg{
@@ -4911,11 +4911,11 @@ h4 {
 }
 
 .hover\:lil-shadow-sm:hover{
-  box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+  box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
 }
 
 .hover\:lil-shadow-md:hover{
-  box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+  box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
 }
 
 .hover\:lil-shadow-lg:hover{
@@ -4923,11 +4923,11 @@ h4 {
 }
 
 .focus\:lil-shadow-sm:focus{
-  box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+  box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
 }
 
 .focus\:lil-shadow-md:focus{
-  box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+  box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
 }
 
 .focus\:lil-shadow-lg:focus{
@@ -9884,11 +9884,11 @@ h4 {
   }
 
   .sm\:lil-shadow-sm{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .sm\:lil-shadow-md{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .sm\:lil-shadow-lg{
@@ -9896,11 +9896,11 @@ h4 {
   }
 
   .sm\:hover\:lil-shadow-sm:hover{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .sm\:hover\:lil-shadow-md:hover{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .sm\:hover\:lil-shadow-lg:hover{
@@ -9908,11 +9908,11 @@ h4 {
   }
 
   .sm\:focus\:lil-shadow-sm:focus{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .sm\:focus\:lil-shadow-md:focus{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .sm\:focus\:lil-shadow-lg:focus{
@@ -14870,11 +14870,11 @@ h4 {
   }
 
   .md\:lil-shadow-sm{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .md\:lil-shadow-md{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .md\:lil-shadow-lg{
@@ -14882,11 +14882,11 @@ h4 {
   }
 
   .md\:hover\:lil-shadow-sm:hover{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .md\:hover\:lil-shadow-md:hover{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .md\:hover\:lil-shadow-lg:hover{
@@ -14894,11 +14894,11 @@ h4 {
   }
 
   .md\:focus\:lil-shadow-sm:focus{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .md\:focus\:lil-shadow-md:focus{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .md\:focus\:lil-shadow-lg:focus{
@@ -19856,11 +19856,11 @@ h4 {
   }
 
   .lg\:lil-shadow-sm{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .lg\:lil-shadow-md{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .lg\:lil-shadow-lg{
@@ -19868,11 +19868,11 @@ h4 {
   }
 
   .lg\:hover\:lil-shadow-sm:hover{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .lg\:hover\:lil-shadow-md:hover{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .lg\:hover\:lil-shadow-lg:hover{
@@ -19880,11 +19880,11 @@ h4 {
   }
 
   .lg\:focus\:lil-shadow-sm:focus{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .lg\:focus\:lil-shadow-md:focus{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .lg\:focus\:lil-shadow-lg:focus{
@@ -24842,11 +24842,11 @@ h4 {
   }
 
   .xl\:lil-shadow-sm{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .xl\:lil-shadow-md{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .xl\:lil-shadow-lg{
@@ -24854,11 +24854,11 @@ h4 {
   }
 
   .xl\:hover\:lil-shadow-sm:hover{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .xl\:hover\:lil-shadow-md:hover{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .xl\:hover\:lil-shadow-lg:hover{
@@ -24866,11 +24866,11 @@ h4 {
   }
 
   .xl\:focus\:lil-shadow-sm:focus{
-    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 8px 13px rgba(70, 74, 85, 0.08);
   }
 
   .xl\:focus\:lil-shadow-md:focus{
-    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.16);
+    box-shadow: 0 13px 22px rgba(70, 74, 85, 0.08);
   }
 
   .xl\:focus\:lil-shadow-lg:focus{
