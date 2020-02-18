@@ -67,7 +67,7 @@ module.exports = {
     lineHeight: {
       none: 1,
       tight: 1.2,
-      loose: 1.6
+      loose: 1.5
     },
     opacity: false,
     screens: {
