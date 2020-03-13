@@ -20,7 +20,8 @@ module.exports = {
         type: "category",
         label: "Borders",
         items: ["border-radius", "border-width"]
-      }
+      },
+      "box-shadow"
     ]
   }
 };
