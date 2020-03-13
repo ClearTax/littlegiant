@@ -7,14 +7,15 @@
 
 module.exports = {
   docs: {
-    'Getting Started': ['getting-started'],
-    'Components': [
-      'grid',
+    "Getting Started": ["getting-started"],
+    Components: [
+      "grid",
       {
-        type: 'category',
-        label: 'Typography',
-        items: ['font-size', 'font-color', 'font-weight', 'line-height']
-      }
+        type: "category",
+        label: "Typography",
+        items: ["font-size", "font-color", "font-weight", "line-height"]
+      },
+      "colors"
     ]
   }
 };
