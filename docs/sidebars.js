@@ -19,7 +19,7 @@ module.exports = {
       {
         type: "category",
         label: "Borders",
-        items: ["border-radius"]
+        items: ["border-radius", "border-width"]
       }
     ]
   }
