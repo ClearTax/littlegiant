@@ -11,7 +11,8 @@
     "build:tailwind": "npx tailwind build src/littlegiant.css -o css/littlegiant.css",
     "build:uglify": "uglifycss css/littlegiant.css > css/littlegiant.min.css",
     "clean-deps": "clean-deps",
-    "docs": "cd docs && npm start"
+    "docs": "cd docs && npm start",
+    "deploy": "cd docs && npm run deploy"
   },
   "repository": {
     "type": "git",
