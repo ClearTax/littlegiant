@@ -15,7 +15,12 @@ module.exports = {
         label: "Typography",
         items: ["font-size", "font-color", "font-weight", "line-height"]
       },
-      "colors"
+      "colors",
+      {
+        type: "category",
+        label: "Borders",
+        items: ["border-radius"]
+      }
     ]
   }
 };
