@@ -21,7 +21,8 @@ module.exports = {
         label: "Borders",
         items: ["border-radius", "border-width"]
       },
-      "box-shadow"
+      "box-shadow",
+      "cursor"
     ]
   }
 };
