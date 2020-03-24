@@ -4,7 +4,7 @@ title: Font Color
 sidebar_label: Font Color
 ---
 
-Control the font color of an element using the `lil-text-{color}` utilities.
+Control the font color of an element using the `lil-text-{color}` utilities. You can use any of the [colors](colors.md)
 
 ```html live
 <>
