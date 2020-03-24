@@ -23,6 +23,7 @@ module.exports = {
       },
       "box-shadow",
       "cursor"
-    ]
+    ],
+    "Responsive Design": ["responsive-design"]
   }
 };
