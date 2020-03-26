@@ -13,7 +13,13 @@ module.exports = {
       {
         type: "category",
         label: "Typography",
-        items: ["font-size", "font-color", "font-weight", "line-height"]
+        items: [
+          "font-size",
+          "font-color",
+          "font-weight",
+          "line-height",
+          "text-alignment"
+        ]
       },
       "colors",
       {
