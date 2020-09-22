@@ -1,0 +1,29 @@
+/* Text */
+.lil-font-gilroy {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    line-height: 120%;
+    @apply lil-text-s-64 lil-font-bold lil-font-gilroy;
+}
+h2 {
+    line-height: 120%;
+    @apply lil-text-s-56 lil-font-bold lil-font-gilroy;
+}
+h3 {
+    line-height: 120%;
+    @apply lil-text-s-48 lil-font-bold lil-font-gilroy;
+}
+h4 {
+    line-height: 120%;
+    @apply lil-text-s-40 lil-font-bold lil-font-gilroy;
+}
+h5 {
+    line-height: 130%;
+    @apply lil-text-s-32 lil-font-bold lil-font-gilroy;
+}
+h6 {
+    line-height: 140%;
+    @apply lil-text-s-24 lil-font-bold lil-font-gilroy;
+}
+/* */

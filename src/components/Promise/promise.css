@@ -1,0 +1,17 @@
+/** Promise */
+.lil-promise-horizontal {
+    height: 300px;
+    width: 250px;
+    @apply lil-p-5;
+}
+.lil-promise-horizontal .lil-promise-icon-wrapper {
+    height: 25%;
+    @apply lil-w-full;
+}
+.lil-promise-horizontal .lil-promise-icon {
+    @apply lil-h-full;
+}
+.lil-promise-content {
+    height: 75%;
+    @apply lil-w-full lil-whitespace-pre-line lil-break-words lil-mt-4;
+}

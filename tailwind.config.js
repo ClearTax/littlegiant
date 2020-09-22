@@ -6,6 +6,7 @@ module.exports = {
         50: "#CFE4FF",
         100: "#7FB7FE",
         200: "#2F89FC",
+        250: "#1678FB",
         300: "#185EB8",
         400: "#003273"
       },
@@ -21,6 +22,7 @@ module.exports = {
       },
       grey: {
         100: "#FAFBFF",
+        150: "#D6D6D6",
         200: "#CFD4DD",
         300: "#ADB1BB",
         400: "#8B8F99",
@@ -38,6 +40,7 @@ module.exports = {
       sm: "2px",
       md: "4px",
       lg: "8px",
+      xl: "12px",
       full: "50%"
     },
     borderWidth: {
@@ -58,6 +61,20 @@ module.exports = {
     },
     fill: false,
     fontFamily: false,
+    fontSize: {
+      "s-12": "12px",
+      "s-14": "14px",
+      base: "16px",
+      "s-18": "18px",
+      "s-20": "20px",
+      "s-24": "24px",
+      "s-32": "32px",
+      "s-36": "36px",
+      "s-40": "40px",
+      "s-48": "48px",
+      "s-56": "56px",
+      "s-64": "64px"
+    },
     fontWeight: {
       light: 300,
       normal: 400,
@@ -74,9 +91,9 @@ module.exports = {
       sm: {
         max: "768px"
       },
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px"
+      md: {'min': '769px', 'max': '1024px'},
+      lg: {'min': '1025px', 'max': '1280px'},
+      xl: {'min': '1281px'},
     },
     stroke: false,
     zIndex: {

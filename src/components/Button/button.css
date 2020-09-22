@@ -1,0 +1,20 @@
+/* Button */
+.lil-btn {
+    @apply lil-inline-block lil-py-3 lil-px-6 lil-rounded-lg lil-text-center;
+}
+.lil-btn-blue {
+    @apply lil-bg-blue-250 lil-text-white;
+}
+.lil-btn-link {
+    @apply lil-flex lil-text-blue-250 lil-font-bold lil-text-base;
+}
+.lil-btn-link > .lil-icon {
+    @apply lil-ml-1;
+}
+.lil-btn:hover,
+.lil-btn:focus,
+.lil-btn-link:hover,
+.lil-btn-link:focus {
+  @apply lil-outline-none;
+}
+/* */

@@ -28,7 +28,11 @@ module.exports = {
         items: ["border-radius", "border-width"]
       },
       "box-shadow",
-      "cursor"
+      "cursor",
+      "button",
+      "text",
+      "cards",
+      "promise",
     ],
     "Responsive Design": ["responsive-design"]
   }
