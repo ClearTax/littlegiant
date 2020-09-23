@@ -9,7 +9,18 @@ module.exports = {
   docs: {
     "Getting Started": ["getting-started"],
     Components: [
+      {
+        type: "category",
+        label: "Borders",
+        items: ["border-radius", "border-width"]
+      },
+      "box-shadow",
+      "button",
+      "cards",
+      "colors",
+      "cursor",
       "grid",
+      "promise",
       {
         type: "category",
         label: "Typography",
@@ -21,18 +32,6 @@ module.exports = {
           "text-alignment"
         ]
       },
-      "colors",
-      {
-        type: "category",
-        label: "Borders",
-        items: ["border-radius", "border-width"]
-      },
-      "box-shadow",
-      "cursor",
-      "button",
-      "text",
-      "cards",
-      "promise",
     ],
     "Responsive Design": ["responsive-design"]
   }

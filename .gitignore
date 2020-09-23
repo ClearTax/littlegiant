@@ -108,3 +108,6 @@ dist
 
 .docusaurus
 build
+
+# IDE specific
+.DS_Store
