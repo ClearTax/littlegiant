@@ -1,15 +1,14 @@
 /** Promise */
 .lil-promise-horizontal {
-    height: 300px;
-    width: 250px;
-    @apply lil-p-5;
+
+    @apply lil-p-5 lil-w-auto lil-h-auto;
 }
 .lil-promise-horizontal .lil-promise-icon-wrapper {
     height: 25%;
     @apply lil-w-full;
 }
 .lil-promise-horizontal .lil-promise-icon {
-    @apply lil-h-full;
+    @apply lil-h-16;
 }
 .lil-promise-content {
     height: 75%;
