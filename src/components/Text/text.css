@@ -26,4 +26,21 @@ h6 {
     line-height: 140%;
     @apply lil-text-s-24 lil-font-bold lil-font-gilroy;
 }
+@screen sm {
+    h1 {
+        @apply lil-text-s-36;
+    }
+    h2 {
+        @apply lil-text-s-28;
+    }
+    h3 {
+        @apply lil-text-s-20;
+    }
+    h4 {
+        @apply lil-text-base;
+    }
+    h5, h6 {
+        @apply lil-text-s-14;
+    }
+}
 /* */

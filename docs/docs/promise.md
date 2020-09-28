@@ -11,7 +11,7 @@ sidebar_label: Promise Card
     <div class="lil-w-1/3 sm:lil-w-full">
         <div class="lil-promise-horizontal">
             <div class="lil-promise-icon-wrapper">
-                <img class="lil-promise-icon" src="http://localhost:8001/maxtax.png" />
+                <img class="lil-promise-icon" src="https://assets1.cleartax-cdn.com/cleartax/images/1601288250_piggybank.png" />
             </div>
             <div class="lil-promise-content">
                 <h6>Maximum Tax Savings</h6>
