@@ -1,0 +1,44 @@
+/** Cards */
+
+.lil-card {
+    height: 250px;
+    width: 250px;
+    @apply lil-rounded-xl lil-bg-grey-150 lil-p-5 lil-relative lil-cursor-pointer;
+}
+.lil-card > .lil-card-header {
+    height: 65%;
+    @apply lil-w-full;
+}
+.lil-card-header .lil-card-icon {
+    @apply lil-float-right;
+}
+.lil-card > .lil-card-footer {
+    height: 35%;
+    @apply lil-w-full lil-clear-both;
+}
+.lil-card > .lil-card-content {
+    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-blue-100 lil-absolute lil-top-0 lil-left-0 lil-p-5 lil-text-white lil-whitespace-normal;
+}
+.lil-card:hover > .lil-card-content {
+    @apply lil-block;
+}
+@screen sm {
+    .lil-card {
+        height: 144px;
+        width: 144px;
+    }
+}
+.lil-stat-card {
+    box-shadow: 8px 8px 60px 4px rgba(45, 45, 45, 0.08);
+    @apply lil-p-5 lil-bg-white lil-rounded-xl lil-h-auto;
+}
+.lil-stat-card .lil-stat-card-content {
+    @apply lil-mb-3;
+}
+.lil-stat-card .lil-stat-card-footer {
+    height: 40px;
+}
+.lil-stat-card .lil-stat-icon {
+    width: 40px;
+    @apply lil-float-right lil-h-full;
+}

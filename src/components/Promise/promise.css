@@ -1,0 +1,12 @@
+/** Promise */
+.lil-promise-horizontal {
+    @apply lil-p-5 lil-w-auto lil-h-auto;
+}
+.lil-promise-horizontal .lil-promise-icon-wrapper {
+    height: 25%;
+    @apply lil-w-full;
+}
+.lil-promise-content {
+    height: 75%;
+    @apply lil-w-full lil-whitespace-pre-line lil-break-words lil-mt-4;
+}

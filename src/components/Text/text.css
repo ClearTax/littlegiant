@@ -1,0 +1,43 @@
+/* Text */
+h1 {
+    line-height: 120%;
+    @apply lil-text-s-64 lil-font-bold;
+}
+h2 {
+    line-height: 120%;
+    @apply lil-text-s-56 lil-font-bold;
+}
+h3 {
+    line-height: 120%;
+    @apply lil-text-s-48 lil-font-bold;
+}
+h4 {
+    line-height: 120%;
+    @apply lil-text-s-40 lil-font-bold;
+}
+h5 {
+    line-height: 130%;
+    @apply lil-text-s-32 lil-font-bold;
+}
+h6 {
+    line-height: 140%;
+    @apply lil-text-s-24 lil-font-bold;
+}
+@screen sm {
+    h1 {
+        @apply lil-text-s-36;
+    }
+    h2 {
+        @apply lil-text-s-28;
+    }
+    h3 {
+        @apply lil-text-s-20;
+    }
+    h4 {
+        @apply lil-text-base;
+    }
+    h5, h6 {
+        @apply lil-text-s-14;
+    }
+}
+/* */
