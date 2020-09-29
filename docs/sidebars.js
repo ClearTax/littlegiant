@@ -12,11 +12,15 @@ module.exports = {
       {
         type: "category",
         label: "Borders",
-        items: ["border-radius", "border-width"]
+        items: ["border-radius", "border-width"],
       },
       "box-shadow",
       "button",
-      "cards",
+      {
+        type: "category",
+        label: "Cards",
+        items: ["cards", "faq-card", "presscard"],
+      },
       "colors",
       "cursor",
       "grid",
@@ -29,10 +33,10 @@ module.exports = {
           "font-color",
           "font-weight",
           "line-height",
-          "text-alignment"
-        ]
+          "text-alignment",
+        ],
       },
     ],
-    "Responsive Design": ["responsive-design"]
-  }
+    "Responsive Design": ["responsive-design"],
+  },
 };
