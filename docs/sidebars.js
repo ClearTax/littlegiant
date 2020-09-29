@@ -12,7 +12,7 @@ module.exports = {
       {
         type: "category",
         label: "Borders",
-        items: ["border-radius", "border-width"]
+        items: ["border-radius", "border-width"],
       },
       "box-shadow",
       "button",
@@ -20,7 +20,11 @@ module.exports = {
       "colors",
       "cursor",
       "grid",
-      "promise",
+      {
+        type: "category",
+        label: "Promise",
+        items: ["promise-h", "promise-v"],
+      },
       {
         type: "category",
         label: "Typography",
@@ -29,10 +33,10 @@ module.exports = {
           "font-color",
           "font-weight",
           "line-height",
-          "text-alignment"
-        ]
+          "text-alignment",
+        ],
       },
     ],
-    "Responsive Design": ["responsive-design"]
-  }
+    "Responsive Design": ["responsive-design"],
+  },
 };
