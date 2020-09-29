@@ -90,11 +90,11 @@ module.exports = {
     opacity: false,
     screens: {
       sm: {
-        max: "768px",
+        max: "767px",
       },
-      md: { min: "769px", max: "1024px" },
-      lg: { min: "1025px", max: "1280px" },
-      xl: { min: "1281px" },
+      md: { min: "768px", max: "1023px" },
+      lg: { min: "1024px", max: "1279px" },
+      xl: { min: "1280px" },
     },
     stroke: false,
     zIndex: {

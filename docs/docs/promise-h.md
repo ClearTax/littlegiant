@@ -1,7 +1,7 @@
 ---
-id: promise
-title: Promise Card
-sidebar_label: Promise Card
+id: promise-h
+title: Promise Column View
+sidebar_label: Promise Horizontal
 ---
 
 ##### Utilities for Promise
