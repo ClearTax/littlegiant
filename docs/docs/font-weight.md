@@ -10,6 +10,7 @@ Control the font weight of an element using the `lil-font-{weight}` utilities.
 <>
   <p class='lil-font-light'>Light</p>
   <p class='lil-font-normal'>Normal</p>
+  <p class='lil-font-semibold'>Semibold</p>
   <p class='lil-font-bold'>Bold</p>
 </>
 ```
