@@ -8,10 +8,16 @@ sidebar_label: Button
 
 ```html live
 <>
-    <button class="lil-btn lil-btn-blue">Button</button>
-    <span class="lil-mx-2"></span>
-    <button class="lil-btn-link">
-        Button as link
-    </button>
+    <div>
+      <button class="lil-btn lil-btn-blue">lil-btn-blue</button>
+    </div>
+    <div class="lil-bg-grey-500 lil-p-5 lil-my-2">
+      <button class="lil-btn lil-btn-white">lil-btn-white</button>
+    </div>
+    <div>
+      <button class="lil-btn-link">
+          lil-btn-link
+      </button>
+    </div>
 </>
 ```

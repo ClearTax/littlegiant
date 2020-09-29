@@ -24,7 +24,11 @@ module.exports = {
       "colors",
       "cursor",
       "grid",
-      "promise",
+      {
+        type: "category",
+        label: "Promise",
+        items: ["promise-h", "promise-v"],
+      },
       {
         type: "category",
         label: "Typography",
