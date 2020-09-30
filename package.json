@@ -9,6 +9,7 @@
   "scripts": {
     "build": "npm-run-all -s build:tailwind build:uglify",
     "build:tailwind": "npx postcss src/littlegiant.css -o css/littlegiant.css",
+    "build:tailwind-watch": "npx postcss src/littlegiant.css -o css/littlegiant.css --watch",
     "build:uglify": "uglifycss css/littlegiant.css > css/littlegiant.min.css",
     "clean-deps": "clean-deps",
     "docs": "cd docs && npm start",

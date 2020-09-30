@@ -79,6 +79,7 @@ module.exports = {
     fontWeight: {
       light: 300,
       normal: 400,
+      semibold: 600,
       bold: 700,
     },
     letterSpacing: false,
@@ -87,7 +88,13 @@ module.exports = {
       tight: 1.2,
       loose: 1.5,
     },
-    opacity: false,
+    opacity: {
+      '0': '0',
+      '25': '0.25',
+      '50': '0.5',
+      '75': '0.75',
+      '100': '1',
+    },
     screens: {
       sm: {
         max: "767px",
