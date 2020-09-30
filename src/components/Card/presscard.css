@@ -5,15 +5,13 @@
 }
 
 /*
-Colors have to be modiefied for .lil-presscard-year & .lil-presscard-award
+Colors have to be modified for .lil-presscard-heading & .lil-presscard-content
 */
 .lil-presscard > .lil-presscard-heading {
   @apply lil-text-base lil-text-black lil-text-center lil-mx-2 lil-my-3 lil-h-12;
 }
 .lil-presscard > .lil-presscard-content {
-  white-space: normal;
-
-  @apply lil-text-s-24 lil-text-blue-300 lil-text-center lil-font-bold lil-h-24;
+  @apply lil-text-s-24 lil-text-blue-300 lil-text-center lil-font-bold lil-h-24 lil-whitespace-normal;
 }
 .lil-presscard > .lil-presscard-image {
   @apply lil-flex lil-justify-center lil-items-center lil-mx-2 lil-h-24;
