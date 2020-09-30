@@ -4,7 +4,6 @@ title: Tabs
 sidebar_label: Tabs
 ---
 
-##### Utilities for Buttons
 
 ```html live
 <>
