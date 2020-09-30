@@ -29,6 +29,7 @@ module.exports = {
         label: "Promise",
         items: ["promise-h", "promise-v"],
       },
+      "reinforcement",
       {
         type: "category",
         label: "Typography",
