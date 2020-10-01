@@ -62,6 +62,7 @@ module.exports = {
     fill: false,
     fontFamily: false,
     fontSize: {
+      "s-10": "10px",
       "s-12": "12px",
       "s-14": "14px",
       base: "16px",

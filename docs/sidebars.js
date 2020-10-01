@@ -23,6 +23,7 @@ module.exports = {
       },
       "colors",
       "cursor",
+      "email-input",
       "grid",
       {
         type: "category",

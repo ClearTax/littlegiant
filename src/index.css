@@ -5,5 +5,9 @@
 @import "./components/Card/FAQcard.css";
 @import "./components/Card/presscard.css";
 @import "./components/Reinforcement/reinforcement.css";
-@import "./components/Card/carouselcard.css"
+@import "./components/Card/carouselcard.css";
+@import "./components/Input/email_input.css";
+
+
+
 
