@@ -18,5 +18,5 @@ Want to use `littleGIANT`? Just Copy-paste the following snippet into your `<hea
 Now you can use the CSS Utilities directly as class names.
 
 ```html live
-<button class="lil-button lil-bg-blue-300 lil-text-xl lil-text-white lil-px-3 lil-py-1 lil-rounded lil-rounded-lg">Hello</button>
+<button class="lil-button lil-bg-blue-400 lil-text-xl lil-text-white lil-px-3 lil-py-1 lil-rounded lil-rounded-lg">Hello</button>
 ```
