@@ -4,5 +4,6 @@
 @import "./components/Text/text.css";
 @import "./components/Card/FAQcard.css";
 @import "./components/Card/presscard.css";
-@import "./components/Reinforcement/reinforcement.css"
+@import "./components/Reinforcement/reinforcement.css";
+@import "./components/Card/carouselcard.css"
 
