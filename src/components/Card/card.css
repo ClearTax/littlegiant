@@ -3,7 +3,7 @@
 .lil-card {
     height: 250px;
     width: 250px;
-    @apply lil-rounded-xl lil-bg-grey-150 lil-p-5 lil-relative lil-cursor-pointer;
+    @apply lil-rounded-xl lil-bg-grey-350 lil-p-5 lil-relative lil-cursor-pointer;
 }
 .lil-card > .lil-card-header {
     height: 65%;
@@ -17,7 +17,7 @@
     @apply lil-w-full lil-clear-both;
 }
 .lil-card > .lil-card-content {
-    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-blue-100 lil-absolute lil-top-0 lil-left-0 lil-p-5 lil-text-white lil-whitespace-normal;
+    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-blue-250 lil-absolute lil-top-0 lil-left-0 lil-p-5 lil-text-white lil-whitespace-normal;
 }
 .lil-card:hover > .lil-card-content {
     @apply lil-block;

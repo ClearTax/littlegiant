@@ -11,7 +11,7 @@ sidebar_label: Button
     <div>
       <button class="lil-btn lil-btn-blue">lil-btn-blue</button>
     </div>
-    <div class="lil-bg-grey-500 lil-p-5 lil-my-2">
+    <div class="lil-bg-grey-550 lil-p-5 lil-my-2">
       <button class="lil-btn lil-btn-white">lil-btn-white</button>
     </div>
     <div>

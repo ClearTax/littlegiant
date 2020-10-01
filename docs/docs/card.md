@@ -40,7 +40,7 @@ sidebar_label: Cards
             </div>
         </div>
     </div>
-    <div class="lg:lil-w-1/2 md:lil-w-full sm:lil-w-full lil-p-1 lil-bg-grey-150">
+    <div class="lg:lil-w-1/2 md:lil-w-full sm:lil-w-full lil-p-1 lil-bg-grey-350">
         <div class="lil-card lil-bg-white">
             <div class="lil-card-header">
                 <div class="lil-card-icon">
@@ -55,7 +55,7 @@ sidebar_label: Cards
             </div>
         </div>
     </div>
-    <div class="lg:lil-w-1/2 md:lil-w-full sm:lil-w-full lil-p-1 lil-bg-grey-150">
+    <div class="lg:lil-w-1/2 md:lil-w-full sm:lil-w-full lil-p-1 lil-bg-grey-350">
         <div class="lil-card lil-bg-white">
             <div class="lil-card-header">
                 <div class="lil-card-icon">
