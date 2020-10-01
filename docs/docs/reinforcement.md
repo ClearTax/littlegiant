@@ -14,8 +14,8 @@ sidebar_label: Reinforcement
             Ready to get started?
         </div>
         <div class="lil-reinforcement-button-wrapper">
-            <button class="lil-btn lil-btn-blue lil-mr-4 sm:lil-mb-4">Try for free</button>
-            <button class="lil-btn lil-btn-white sm:lil-mb-4">Schedule a demo</button>
+            <button class="lil-btn lil-btn-blue lil-mr-4 sm:lil-mb-2">Try for free</button>
+            <button class="lil-btn lil-btn-white sm:lil-mb-2">Schedule a demo</button>
         </div>
     </div>
 </div>

@@ -21,13 +21,11 @@ The css colors have to be updated with tailwind utility colors
 }
 
 .lil-carousel-card-review > .lil-carousel-card-review-heading {
-  color: #314259;
-  @apply lil-text-s-36 lil-font-bold lil-px-8 lil-py-4 lil-whitespace-normal;
+  @apply lil-text-s-36 lil-font-bold lil-px-8 lil-py-4 lil-whitespace-normal lil-text-font-500;
 }
 
 .lil-carousel-card-review > .lil-carousel-card-review-content {
-  color: #596c85;
-  @apply lil-text-s-24 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left;
+  @apply lil-text-s-24 lil-text-font-300 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left;
 }
 
 .lil-carousel-card > .lil-carousel-card-user-wrapper {
@@ -44,13 +42,11 @@ The css colors have to be updated with tailwind utility colors
 }
 
 .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-heading {
-  color: #314259;
-  @apply lil-text-s-24 lil-font-bold lil-mx-4;
+  @apply lil-text-s-24 lil-font-bold lil-mx-4 lil-text-font-500;
 }
 
 .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-content {
-  color: #596c85;
-  @apply lil-text-base lil-mx-4;
+  @apply lil-text-base lil-mx-4 lil-text-font-300;
 }
 
 .lil-carousel-card-user-wrapper .lil-carousel-card-user-explore-link{
@@ -63,13 +59,11 @@ The css colors have to be updated with tailwind utility colors
       }
 
     .lil-carousel-card-review > .lil-carousel-card-review-heading {
-        color: #314259;
-        @apply lil-text-s-24 lil-font-bold lil-px-6 lil-py-4 lil-whitespace-normal;
+        @apply lil-text-s-24 lil-font-bold lil-px-6 lil-py-4 lil-whitespace-normal lil-text-font-500;
       }
       
     .lil-carousel-card-review >.lil-carousel-card-review-content {
-        color: #596c85;
-        @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
+        @apply lil-text-font-300 lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
       }
       .lil-carousel-card-user-wrapper > .lil-carousel-card-user-details-wrapper {
         @apply lil-flex lil-items-center lil-px-6;
@@ -81,13 +75,11 @@ The css colors have to be updated with tailwind utility colors
       }
       
       .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-heading {
-        color: #314259;
-        @apply lil-text-s-18 lil-font-bold lil-mx-4;
+        @apply lil-text-s-18 lil-font-bold lil-mx-4 lil-text-font-500;
       }
       
       .lil-carousel-card-user-details-content {
-        color: #596c85;
-        @apply lil-text-s-12 lil-mx-4;
+        @apply lil-text-s-12 lil-mx-4 lil-text-font-300;
       }
       .lil-carousel-card-user-wrapper .lil-carousel-card-user-explore-link{
         @apply lil-btn-link lil-mr-4 lil-text-base;
@@ -112,13 +104,11 @@ The css colors have to be updated with tailwind utility colors
       }
 
     .lil-carousel-card-review > .lil-carousel-card-review-heading {
-        color: #314259;
-        @apply lil-text-s-20 lil-font-bold lil-px-6 lil-py-4 lil-whitespace-normal;
+        @apply lil-text-s-20 lil-font-bold lil-px-6 lil-py-4 lil-whitespace-normal lil-text-font-500;
       }
       
     .lil-carousel-card-review >.lil-carousel-card-review-content {
-        color: #596c85;
-        @apply lil-text-s-14 lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
+        @apply lil-text-s-14 lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left lil-text-font-300;
       }
       .lil-carousel-card-user-wrapper > .lil-carousel-card-user-details-wrapper {
         @apply lil-flex lil-items-center lil-px-4;
@@ -130,13 +120,11 @@ The css colors have to be updated with tailwind utility colors
       }
       
       .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-heading {
-        color: #314259;
-        @apply lil-text-base lil-font-bold lil-mx-4;
+        @apply lil-text-base lil-font-bold lil-mx-4 lil-text-font-500;
       }
       
       .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-content {
-        color: #596c85;
-        @apply lil-text-s-12 lil-mx-4;
+        @apply lil-text-s-12 lil-mx-4 lil-text-font-300;
       }
       .lil-carousel-card-user-wrapper .lil-carousel-card-user-explore-link{
         @apply lil-mx-6 lil-py-4 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
