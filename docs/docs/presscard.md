@@ -8,7 +8,7 @@ sidebar_label: Press Card
 
 ```html live
 <>
-<div class="lil-flex lil-flex-wrap lil-bg-grey-150 lil-items-center">
+<div class="lil-flex lil-flex-wrap lil-bg-grey-350 lil-items-center">
     <div class="lil-presscard">
         <div class="lil-presscard-heading">
             2019
