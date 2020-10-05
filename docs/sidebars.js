@@ -19,11 +19,12 @@ module.exports = {
       {
         type: "category",
         label: "Cards",
-        items: ["cards", "faq-card", "presscard"],
+        items: ["cards","carousel-card", "faq-card", "presscard"],
       },
       "colors",
       "cursor",
       "grid",
+      "input-action",
       {
         type: "category",
         label: "Promise",

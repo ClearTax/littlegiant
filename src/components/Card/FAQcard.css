@@ -1,11 +1,7 @@
 .lil-faqcard {
-  /*
-  background-color needs to be updated
-  */
   height: 280px;
   width: 250px;
-  background-color: #1c314f;
-  @apply lil-rounded-xl lil-p-5  lil-cursor-pointer lil-text-center lil-m-2 lil-flex-col lil-justify-between;
+  @apply lil-rounded-xl lil-p-5  lil-cursor-pointer lil-text-center lil-m-2 lil-flex-col lil-justify-between lil-bg-font-500;
 }
 
 .lil-faqcard > .lil-faqcard-faq-wrapper {
