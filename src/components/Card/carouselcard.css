@@ -4,19 +4,15 @@ The css colors have to be updated with tailwind utility colors
 .lil-carousel-card {
   /*Fixed width for lg and xl screens*/
   width: 1000px;
-  filter: drop-shadow(8px 8px 60px rgba(45, 45, 45, 0.08));
+  filter: drop-shadow(8px 8px 60px 4px) ;
   @apply lil-w-full lil-rounded-xl lil-bg-white  lil-items-center lil-overflow-auto;
 }
 
-.lil-carousel-card > .lil-carousel-card-review-wrapper {
-  @apply lil-w-full lil-flex lil-flex-wrap lil-justify-between lil-p-6;
-}
-
-.lil-carousel-card-review-wrapper > .lil-carousel-card-review {
+.lil-carousel-card .lil-carousel-card-review {
   @apply lil-w-4/5;
 }
 
-.lil-carousel-card-review-wrapper > .lil-carousel-card-review-image {
+.lil-carousel-card .lil-carousel-card-image {
   @apply lil-items-end;
 }
 
@@ -28,33 +24,21 @@ The css colors have to be updated with tailwind utility colors
   @apply lil-text-s-24 lil-text-font-300 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left;
 }
 
-.lil-carousel-card > .lil-carousel-card-user-wrapper {
+.lil-carousel-card > .lil-carousel-card-footer {
   @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-6 lil-mb-12;
 }
 
-.lil-carousel-card-user-wrapper > .lil-carousel-card-user-details-wrapper {
-  @apply lil-flex lil-items-center lil-px-8;
-}
 
-.lil-carousel-card-user-details-wrapper
-  > .lil-carousel-card-user-details-image {
+.lil-carousel-card-footer .lil-carousel-card-footer-image {
   @apply lil-w-16 lil-h-16 lil-rounded-full lil-bg-grey-400 lil-items-center lil-justify-center lil-flex;
 }
 
-.lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-heading {
-  @apply lil-text-s-24 lil-font-bold lil-mx-4 lil-text-font-500;
-}
-
-.lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-content {
-  @apply lil-text-base lil-mx-4 lil-text-font-300;
-}
-
-.lil-carousel-card-user-wrapper .lil-carousel-card-user-explore-link{
+.lil-carousel-card-footer .lil-carousel-card-footer-action{
     @apply lil-btn-link lil-mr-6 lil-text-s-20;
 }
 
 @screen md {
-    .lil-carousel-card > .lil-carousel-card-user-wrapper {
+    .lil-carousel-card > .lil-carousel-card-footer {
         @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2 lil-mb-6;
       }
 
@@ -65,41 +49,26 @@ The css colors have to be updated with tailwind utility colors
     .lil-carousel-card-review >.lil-carousel-card-review-content {
         @apply lil-text-font-300 lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
       }
-      .lil-carousel-card-user-wrapper > .lil-carousel-card-user-details-wrapper {
-        @apply lil-flex lil-items-center lil-px-6;
-      }
       
-      .lil-carousel-card-user-details-wrapper
-        > .lil-carousel-card-user-details-image {
+      .lil-carousel-card-footer .lil-carousel-card-footer-image {
         @apply lil-w-10 lil-h-10 lil-rounded-full lil-bg-grey-400 lil-items-center lil-justify-center lil-flex;
       }
       
-      .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-heading {
-        @apply lil-text-s-18 lil-font-bold lil-mx-4 lil-text-font-500;
-      }
-      
-      .lil-carousel-card-user-details-content {
-        @apply lil-text-s-12 lil-mx-4 lil-text-font-300;
-      }
-      .lil-carousel-card-user-wrapper .lil-carousel-card-user-explore-link{
+      .lil-carousel-card-footer .lil-carousel-card-footer-action{
         @apply lil-btn-link lil-mr-4 lil-text-base;
     }
 }
 
 @screen sm {
-    .lil-carousel-card > .lil-carousel-card-review-wrapper {
-        @apply lil-w-full lil-flex-col-reverse lil-justify-between lil-p-4;
-      }
-
-    .lil-carousel-card-review-wrapper > .lil-carousel-card-review {
+    .lil-carousel-card .lil-carousel-card-review {
         @apply lil-w-full;
     }
       
-    .lil-carousel-card-review-wrapper > .lil-carousel-card-review-image {
+    .lil-carousel-card .lil-carousel-card-image {
         @apply lil-flex lil-items-center lil-justify-center lil-content-end;
       }
 
-    .lil-carousel-card > .lil-carousel-card-user-wrapper {
+    .lil-carousel-card > .lil-carousel-card-footer {
         @apply lil-flex lil-justify-between lil-flex-wrap lil-items-center lil-px-6 lil-mt-4 lil-mb-6;
       }
 
@@ -110,28 +79,17 @@ The css colors have to be updated with tailwind utility colors
     .lil-carousel-card-review >.lil-carousel-card-review-content {
         @apply lil-text-s-14 lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left lil-text-font-300;
       }
-      .lil-carousel-card-user-wrapper > .lil-carousel-card-user-details-wrapper {
-        @apply lil-flex lil-items-center lil-px-4;
-      }
       
-      .lil-carousel-card-user-details-wrapper
-        > .lil-carousel-card-user-details-image {
+      .lil-carousel-card-footer .lil-carousel-card-footer-image {
         @apply lil-w-10 lil-h-10 lil-rounded-full lil-bg-grey-400 lil-items-center lil-justify-center lil-flex;
       }
       
-      .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-heading {
-        @apply lil-text-base lil-font-bold lil-mx-4 lil-text-font-500;
-      }
-      
-      .lil-carousel-card-user-details-wrapper .lil-carousel-card-user-details-content {
-        @apply lil-text-s-12 lil-mx-4 lil-text-font-300;
-      }
-      .lil-carousel-card-user-wrapper .lil-carousel-card-user-explore-link{
+      .lil-carousel-card-footer .lil-carousel-card-footer-action{
         @apply lil-mx-6 lil-py-4 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
     }   
 }
 
-.lil-carousel-card-user-explore-link:hover,
-.lil-carousel-card-user-explore-link:focus{
+.lil-carousel-card-footer-action:hover,
+.lil-carousel-card-footer-action:focus{
     @apply lil-outline-none;
 }

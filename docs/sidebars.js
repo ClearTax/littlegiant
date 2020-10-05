@@ -23,8 +23,8 @@ module.exports = {
       },
       "colors",
       "cursor",
-      "email-input",
       "grid",
+      "input-action",
       {
         type: "category",
         label: "Promise",
