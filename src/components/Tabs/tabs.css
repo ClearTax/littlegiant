@@ -4,11 +4,11 @@
     @apply lil-flex lil-list-none lil-overflow-x-auto;
 }
 .lil-tabs .lil-tab-active {
-    @apply lil-border-b-lg lil-border-blue-250;
+    @apply lil-border-b-lg lil-border-blue-350;
 }
 .lil-tabs > .lil-tab {
     min-width: 250px;
-    @apply lil-h-full lil-w-auto lil-bg-grey-100 lil-m-0 lil-inline-block lil-text-blue-250 lil-text-s-24;
+    @apply lil-h-full lil-w-auto lil-bg-grey-100 lil-m-0 lil-inline-block lil-text-blue-350 lil-text-s-24;
 }
 .lil-tab > a:first-child {
     text-overflow: ellipsis;
@@ -18,7 +18,7 @@
     @apply lil-w-8 lil-h-8 lil-my-0 lil-mx-auto; 
 }
 .lil-tab > a:hover, a:active {
-    @apply lil-text-blue-250 lil-no-underline;
+    @apply lil-text-blue-350 lil-no-underline;
 }
 .lil-tabs-fixed {
     @apply lil-fixed lil-top-0 lil-right-0 lil-left-0;
@@ -32,7 +32,7 @@
         @apply lil-text-base lil-mr-2 lil-rounded-md;
     }
     .lil-tabs .lil-tab-active {
-        @apply lil-bg-blue-250 lil-text-white;
+        @apply lil-bg-blue-350 lil-text-white;
     }
     .lil-tab > a:first-child {
         @apply lil-py-3;
