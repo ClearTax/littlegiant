@@ -1,9 +1,9 @@
 /** Cards */
 
 .lil-card {
-    height: 250px;
-    width: 250px;
-    @apply lil-rounded-xl lil-bg-grey-350 lil-p-5 lil-relative lil-cursor-pointer;
+    height: 320px;
+    width: 320px;
+    @apply lil-rounded-xl lil-bg-grey-300 lil-p-5 lil-relative lil-cursor-pointer;
 }
 .lil-card > .lil-card-header {
     height: 65%;
@@ -17,7 +17,7 @@
     @apply lil-w-full lil-clear-both;
 }
 .lil-card > .lil-card-content {
-    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-blue-250 lil-absolute lil-top-0 lil-left-0 lil-p-5 lil-text-white lil-whitespace-normal;
+    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-transparent lil-absolute lil-top-0 lil-left-0 lil-text-white lil-whitespace-normal lil-py-12 lil-px-8;
 }
 .lil-card:hover > .lil-card-content {
     @apply lil-block;
@@ -26,6 +26,12 @@
     .lil-card {
         height: 144px;
         width: 144px;
+    }
+    .lil-card-header .lil-card-icon {
+        @apply lil-h-16;
+    }
+    .lil-card > .lil-card-content {
+        @apply lil-py-2 lil-px-2 lil-text-s-12;
     }
 }
 .lil-stat-card {

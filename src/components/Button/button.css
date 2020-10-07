@@ -8,6 +8,9 @@
 .lil-btn-white {
     @apply lil-bg-white lil-text-blue-350;
 }
+.lil-btn-grey {
+    @apply lil-bg-grey-250 lil-text-font-500;
+}
 .lil-btn-link {
     @apply lil-inline-flex lil-text-blue-350 lil-font-bold lil-text-base;
 }
