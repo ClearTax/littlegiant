@@ -13,7 +13,7 @@
     transform: rotate(45deg);
     border-top: 2px solid #CFD4DD;
     border-left: 2px solid #CFD4DD;
-    bottom: -22px;
+    bottom: -10px;
     left: 20px;
     @apply lil-block lil-absolute lil-bg-white lil-z-40 lil-h-4 lil-w-4;
 }
@@ -29,7 +29,7 @@
     left: 0.5rem;
     right: 0.5rem;
     height: 90vh;
-    @apply lil-fixed lil-mt-4;
+    @apply lil-fixed lil-mt-1;
 }
 .lil-dropdown-submenu:hover .lil-dropdown-submenu-header {
     @apply lil-bg-blue-150;
