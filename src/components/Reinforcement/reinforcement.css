@@ -1,7 +1,6 @@
 .lil-reinforcement {
   height: 408px;
-  background-image: radial-gradient(at top right, #1778f9 30%, #ffd240 10%);
-  @apply lil-w-full lil-flex lil-items-center lil-rounded-xl lil-bg-yellow-400;
+  @apply lil-w-full lil-flex lil-items-center lil-shadow-xl lil-rounded-xl lil-bg-white;
 }
 
 .lil-reinforcement > .lil-reinforcement-content-wrapper {
@@ -9,7 +8,7 @@
 }
 
 .lil-reinforcement-content-wrapper > .lil-reinforcement-title {
-  @apply lil-text-s-48 lil-text-left lil-font-bold lil-text-yellow-600;
+  @apply lil-text-s-48 lil-text-left lil-font-bold lil-text-font-500;
 }
 
 .lil-reinforcement-content-wrapper > .lil-reinforcement-button-wrapper {
@@ -19,7 +18,7 @@
 @screen sm {
   .lil-reinforcement {
     background-image: none;
-    @apply lil-w-full lil-h-48 lil-flex lil-items-center lil-rounded-lg;
+    @apply lil-w-full lil-flex lil-h-56 lil-items-center lil-rounded-lg;
   }
   
   .lil-reinforcement > .lil-reinforcement-content-wrapper {
