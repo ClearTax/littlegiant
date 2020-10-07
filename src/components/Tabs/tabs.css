@@ -1,7 +1,7 @@
 .lil-tabs {
     /* fixed height for xl, lg, md screens */
     height: 100px;
-    @apply lil-flex lil-list-none lil-overflow-x-auto lil-sticky lil-top-0 lil-z-20;
+    @apply lil-flex lil-list-none lil-overflow-x-auto lil-sticky;
 }
 .lil-tabs .lil-tab-active {
     @apply lil-border-b-lg lil-border-blue-350;
