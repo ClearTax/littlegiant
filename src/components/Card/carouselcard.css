@@ -85,7 +85,7 @@ The css colors have to be updated with tailwind utility colors
       }
       
       .lil-carousel-card-footer .lil-carousel-card-footer-action{
-        @apply lil-mx-6 lil-py-4 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
+        @apply lil-py-4 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
     }   
 }
 
