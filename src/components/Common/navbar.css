@@ -1,0 +1,21 @@
+.lil-nav {
+    height: 80px;
+    @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10;
+}
+.lil-nav .lil-nav-link {
+    @apply lil-inline-block lil-mx-6 lil-cursor-pointer;
+}
+.lil-dropdown {
+    @apply lil-relative lil-inline-block;
+}
+.lil-dropdown .lil-dropdown-menu {
+    box-shadow: 8px 8px 60px 4px;
+    @apply lil-absolute lil-hidden lil-pt-1 lil-rounded-lg lil-p-12;
+}
+.lil-dropdown:hover .lil-dropdown-menu {
+    @apply lil-block lil-z-20 lil-bg-white;
+}
+.lil-dropdown:hover .lil-dropdown-full-menu {
+    box-shadow: 8px 8px 60px 4px;
+    @apply lil-fixed lil-left-0 lil-right-0;
+}
