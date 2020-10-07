@@ -29,8 +29,7 @@
     }
 }
 .lil-stat-card {
-    height: 320px;
-    width: 220px;
+    width: 95%;
     @apply lil-p-5 lil-bg-white lil-rounded-xl lil-h-auto lil-shadow-lg;
 }
 .lil-stat-card .lil-stat-card-content {
@@ -42,18 +41,4 @@
 .lil-stat-card .lil-stat-icon {
     width: 40px;
     @apply lil-float-right lil-h-full;
-}
-@screen md{
-    .lil-stat-card{
-        height: 180px;
-        width:180px;
-    }
-}
-
-@screen sm{
-    .lil-stat-card{
-        height: 140px;
-        width:180px;
-        @apply lil-p-2;
-    }
 }
