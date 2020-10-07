@@ -35,8 +35,7 @@
     }
 }
 .lil-stat-card {
-    box-shadow: 8px 8px 60px 4px rgba(45, 45, 45, 0.08);
-    @apply lil-p-5 lil-bg-white lil-rounded-xl lil-h-auto;
+    @apply lil-p-5 lil-w-full lil-bg-white lil-rounded-xl lil-h-auto lil-shadow-lg;
 }
 .lil-stat-card .lil-stat-card-content {
     @apply lil-mb-3;
