@@ -1,6 +1,5 @@
 .lil-nav {
-    height: 80px;
-    @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10;
+    @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10 lil-h-20;
 }
 .lil-nav .lil-nav-link {
     @apply lil-inline-block lil-mx-6 lil-cursor-pointer;
@@ -11,25 +10,26 @@
 .lil-dropdown:hover:after {
     content: '';
     transform: rotate(45deg);
-    border-top: 2px solid #CFD4DD;
-    border-left: 2px solid #CFD4DD;
+    border-top: 2px solid var(--grey-400);
+    border-left: 2px solid var(--grey-400);
     bottom: -10px;
     left: 20px;
     @apply lil-block lil-absolute lil-bg-white lil-z-40 lil-h-4 lil-w-4;
 }
 .lil-dropdown .lil-dropdown-menu {
-    box-shadow: 0px 1px 2px 3px #CFD4DD;
-    @apply lil-absolute lil-hidden lil-pt-1 lil-rounded-lg lil-p-12 lil-mt-4;
+    box-shadow: 0px 1px 2px 3px var(--grey-400);
+    width: 350px;
+    @apply lil-absolute lil-hidden lil-pt-1 lil-rounded-lg lil-mt-1 lil-p-4;
 }
 .lil-dropdown:hover .lil-dropdown-menu {
     @apply lil-block lil-z-30 lil-bg-white;
 }
 .lil-dropdown:hover .lil-dropdown-full-menu {
-    box-shadow: 0px 1px 2px 3px #CFD4DD;
+    box-shadow: 0px 1px 2px 3px var(--grey-400);
     left: 0.5rem;
     right: 0.5rem;
     height: 90vh;
-    @apply lil-fixed lil-mt-1;
+    @apply lil-fixed lil-p-12 lil-w-auto;
 }
 .lil-dropdown-submenu:hover .lil-dropdown-submenu-header {
     @apply lil-bg-blue-150;
