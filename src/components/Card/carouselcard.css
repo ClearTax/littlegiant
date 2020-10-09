@@ -21,7 +21,7 @@ The css colors have to be updated with tailwind utility colors
 }
 
 .lil-carousel-card-review > .lil-carousel-card-review-content {
-  @apply lil-text-s-24 lil-text-font-300 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left;
+  @apply lil-text-s-24 lil-text-font-200 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left;
 }
 
 .lil-carousel-card > .lil-carousel-card-footer {
@@ -47,7 +47,7 @@ The css colors have to be updated with tailwind utility colors
       }
       
     .lil-carousel-card-review >.lil-carousel-card-review-content {
-        @apply lil-text-font-300 lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
+        @apply lil-text-font-200 lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
       }
       
       .lil-carousel-card-footer .lil-carousel-card-footer-image {
@@ -77,7 +77,7 @@ The css colors have to be updated with tailwind utility colors
       }
       
     .lil-carousel-card-review >.lil-carousel-card-review-content {
-        @apply lil-text-s-14 lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left lil-text-font-300;
+        @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left lil-text-font-200;
       }
       
       .lil-carousel-card-footer .lil-carousel-card-footer-image {
