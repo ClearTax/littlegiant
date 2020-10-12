@@ -1,14 +1,46 @@
 p {
-    font-size: 20px;
-    @apply lil-font-medium lil-text-font-200;
+  font-size: 20px;
+  @apply lil-font-medium lil-text-font-200;
 }
 
-@screen sm{
-    p {
-        font-size:16px;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply lil-text-font-500;
+}
 
-    h5, h6 {
-        font-size:16px;
-    }
+.common-padding {
+  @apply lil-py-8;
+}
+
+@screen lg {
+  .full-section {
+    @apply lil-h-screen;
+  }
+  .common-padding {
+    @apply lil-py-24;
+  }
+}
+
+@screen xl {
+  .full-section {
+    @apply lil-h-screen;
+  }
+  .common-padding {
+    @apply lil-py-24;
+  }
+}
+
+@screen sm {
+  p {
+    font-size: 16px;
+  }
+
+  h5,
+  h6 {
+    font-size: 16px;
+  }
 }
