@@ -1,8 +1,8 @@
 /** Cards */
 
 .lil-card {
-    height: 320px;
-    width: 320px;
+    height: 350px;
+    width: 350px;
     @apply lil-rounded-xl lil-bg-grey-300 lil-p-5 lil-relative lil-cursor-pointer;
 }
 .lil-card > .lil-card-header {
@@ -14,7 +14,7 @@
 }
 .lil-card > .lil-card-footer {
     height: 35%;
-    @apply lil-w-full lil-clear-both;
+    @apply lil-w-full lil-clear-both lil-pt-4;
 }
 .lil-card > .lil-card-content {
     @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-transparent lil-absolute lil-top-0 lil-left-0 lil-text-white lil-whitespace-normal lil-py-12 lil-px-8;
