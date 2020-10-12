@@ -25,7 +25,7 @@ The css colors have to be updated with tailwind utility colors
 }
 
 .lil-carousel-card > .lil-carousel-card-footer {
-  @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-6 lil-mb-12;
+  @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2 lil-mb-12;
 }
 
 
