@@ -37,11 +37,8 @@ p {
     h3 {
         @apply lil-text-s-20;
     }
-    h4, h5, h6 {
+    h4, h5, h6, p {
         @apply lil-text-base;
     }
-    p {
-        font-size: 16px;
-      }
 }
 /* */
