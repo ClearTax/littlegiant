@@ -1,0 +1,16 @@
+.lil-sidenav {
+    transform: translateX(-100%);
+    transition: 0.5s;
+    height: 120vh;
+    box-shadow: -5px 0px 13px #23282E;
+    @apply lil-z-20 lil-fixed lil-top-0 lil-bg-white lil-overflow-x-hidden lil-w-0;
+}
+
+.lil-sidenav-right-aligned {
+    transform: translateX(100%);
+    @apply lil-right-0 lil-left-auto;
+}
+
+.lil-overlay {
+    @apply lil-fixed lil-left-0 lil-top-0 lil-h-screen lil-w-full lil-bg-black lil-bg-opacity-50 lil-z-10 lil-block lil-hidden;
+}
