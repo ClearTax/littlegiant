@@ -1,8 +1,7 @@
 .lil-presscard {
   height: 320px;
-  min-width: 280px;
-
-  @apply lil-rounded-xl lil-shadow-xl lil-bg-white lil-align-middle lil-m-4 lil-justify-between;
+  min-width: inherit;
+  @apply lil-rounded-xl lil-shadow-xl lil-bg-white lil-align-middle lil-justify-between;
 }
 .lil-presscard > .lil-presscard-heading {
   @apply lil-text-s-20 lil-font-bold lil-text-font-500 lil-text-center lil-mx-2 lil-my-3 lil-h-12;
