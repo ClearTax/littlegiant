@@ -11,7 +11,7 @@
 }
 .lil-promise-horizontal .lil-promise-content {
     height: 75%;
-    @apply lil-w-full lil-whitespace-pre-line lil-break-words lil-mt-4;
+    @apply lil-w-full lil-break-words lil-mt-4;
 }
 
 .lil-promise-vertical {
@@ -30,6 +30,9 @@
     @apply lil-text-s-18;
 }
 @screen sm {
+    .lil-promise-horizontal .lil-promise-content {
+        @apply lil-mt-1;
+    }    
     .lil-promise-vertical .lil-promise-content .lil-promise-heading, .lil-promise-vertical .lil-promise-content .lil-promise-text {
         @apply lil-text-base;
     }
