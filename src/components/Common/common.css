@@ -1,6 +1,3 @@
-p {
-    @apply lil-font-medium lil-text-font-200;
-}
 @responsive {
     .lil-container {
         @apply lil-px-4;
