@@ -1,5 +1,5 @@
 .lil-nav {
-    @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10 lil-h-20;
+    @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10 lil-h-20 lil-top-0;
 }
 .lil-nav .lil-nav-link {
     @apply lil-inline-block lil-mx-6 lil-cursor-pointer;
@@ -39,4 +39,32 @@
 }
 .lil-dropdown-menu .lil-dropdown-menu-item:hover {
     @apply lil-bg-blue-150;
+}
+.lil-toggle {
+    @apply lil-w-4;
+}
+.lil-toggle .lil-toggle-bar {
+    @apply lil-border-b-md lil-border-font-500 lil-w-full lil-mb-1;
+}
+.lil-toggle .lil-toggle-bar-half {
+    @apply lil-w-1/2 lil-float-right lil-mb-0;
+}
+.lil-toggle-close .lil-toggle-bar:first-child {
+    transform: rotate(-45deg);
+    top: 5px;
+    @apply lil-relative;
+}
+.lil-toggle-close .lil-toggle-bar {
+    transform: rotate(45deg);
+    top: -1px;
+    @apply lil-relative;
+}
+.lil-toggle-close .lil-toggle-bar-half {
+    @apply lil-hidden;
+}
+
+@screen sm {
+    .lil-nav {
+        @apply lil-h-12;
+    }
 }

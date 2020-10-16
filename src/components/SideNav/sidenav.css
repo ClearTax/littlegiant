@@ -1,0 +1,28 @@
+.lil-sidenav {
+    transform: translateX(-100%);
+    transition: all 0.5s ease 0s;
+    height: 120vh;
+    @apply lil-z-20 lil-fixed lil-bg-white lil-overflow-x-hidden lil-w-screen lil-visible lil-left-0;
+    transform: translateX(0%);
+}
+
+.lil-sidenav-right-aligned {
+    transform: translateX(0%);
+    transition: all 0.5s ease 0s;
+    left: 100%;
+    @apply lil-right-0;
+}
+
+.lil-sidenav .lil-sidenav-open {
+    transform: translateX(0%);
+    @apply lil-block lil-visible;
+}
+
+.lil-sidenav-right-aligned .lil-sidenav-open {
+    transform: translateX(-100%);
+    @apply lil-block lil-visible;
+}
+
+.lil-overlay {
+    @apply lil-fixed lil-left-0 lil-top-0 lil-h-screen lil-w-full lil-bg-black lil-bg-opacity-50 lil-z-10 lil-block lil-hidden;
+}
