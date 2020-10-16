@@ -1,14 +1,26 @@
 .lil-sidenav {
     transform: translateX(-100%);
-    transition: 0.5s;
+    transition: all 0.5s ease 0s;
     height: 120vh;
-    box-shadow: -5px 0px 13px #23282E;
-    @apply lil-z-20 lil-fixed lil-top-0 lil-bg-white lil-overflow-x-hidden lil-w-0;
+    @apply lil-z-20 lil-fixed lil-bg-white lil-overflow-x-hidden lil-w-screen lil-visible lil-left-0;
+    transform: translateX(0%);
 }
 
 .lil-sidenav-right-aligned {
-    transform: translateX(100%);
-    @apply lil-right-0 lil-left-auto;
+    transform: translateX(0%);
+    transition: all 0.5s ease 0s;
+    left: 100%;
+    @apply lil-right-0;
+}
+
+.lil-sidenav .lil-sidenav-open {
+    transform: translateX(0%);
+    @apply lil-block lil-visible;
+}
+
+.lil-sidenav-right-aligned .lil-sidenav-open {
+    transform: translateX(-100%);
+    @apply lil-block lil-visible;
 }
 
 .lil-overlay {
