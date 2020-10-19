@@ -19,5 +19,11 @@ sidebar_label: Button
           lil-btn-link
       </button>
     </div>
+
+    <h4 class="lil-py-8">Round Buttons</h4>
+    <div class="lil-flex">
+      <div class="lil-btn-round lil-text-font-500 lil-mx-4">L</div>
+      <div class="lil-btn-round lil-text-font-500">R</div>
+    </div>
 </>
 ```

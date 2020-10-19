@@ -1,28 +1,32 @@
 /* Text */
 h1 {
     line-height: 120%;
-    @apply lil-text-s-64 lil-font-bold;
+    @apply lil-text-s-64 lil-font-bold lil-text-font-500;
 }
 h2 {
     line-height: 120%;
-    @apply lil-text-s-56 lil-font-bold;
+    @apply lil-text-s-56 lil-font-bold lil-text-font-500;
 }
 h3 {
     line-height: 120%;
-    @apply lil-text-s-48 lil-font-bold;
+    @apply lil-text-s-48 lil-font-bold lil-text-font-500;
 }
 h4 {
     line-height: 120%;
-    @apply lil-text-s-40 lil-font-bold;
+    @apply lil-text-s-40 lil-font-bold lil-text-font-500;
 }
 h5 {
     line-height: 130%;
-    @apply lil-text-s-32 lil-font-bold;
+    @apply lil-text-s-32 lil-font-bold lil-text-font-500;
 }
 h6 {
     line-height: 140%;
-    @apply lil-text-s-24 lil-font-bold;
+    @apply lil-text-s-24 lil-font-bold lil-text-font-500;
 }
+p {
+    @apply lil-font-medium lil-text-font-200 lil-text-s-20;
+  }
+
 @screen sm {
     h1 {
         @apply lil-text-s-36;
@@ -33,11 +37,8 @@ h6 {
     h3 {
         @apply lil-text-s-20;
     }
-    h4 {
+    h4, h5, h6, p {
         @apply lil-text-base;
-    }
-    h5, h6 {
-        @apply lil-text-s-14;
     }
 }
 /* */

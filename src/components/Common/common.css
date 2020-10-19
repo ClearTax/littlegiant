@@ -1,3 +1,13 @@
-p {
-    @apply lil-font-medium lil-text-font-200;
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary:focus {
+    outline: none;
+}
+
+@responsive {
+    .lil-container {
+        @apply lil-px-4;
+    }
 }
