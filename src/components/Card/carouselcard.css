@@ -34,6 +34,11 @@ The css colors have to be updated with tailwind utility colors
   @apply lil-btn-link lil-mr-6 lil-text-s-20;
 }
 
+.lil-carousel-card-footer-action:hover,
+.lil-carousel-card-footer-action:focus {
+  @apply lil-outline-none;
+}
+
 @screen md {
   .lil-carousel-card > .lil-carousel-card-footer {
     @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2 lil-mb-6;
@@ -89,7 +94,3 @@ The css colors have to be updated with tailwind utility colors
   }
 }
 
-.lil-carousel-card-footer-action:hover,
-.lil-carousel-card-footer-action:focus {
-  @apply lil-outline-none;
-}
