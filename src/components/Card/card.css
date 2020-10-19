@@ -22,6 +22,24 @@
 .lil-card:hover > .lil-card-content {
     @apply lil-block;
 }
+@screen lg {
+    .lil-card {
+        height: 300px;
+        width: 300px;
+    }
+    .lil-card > .lil-card-footer {
+        @apply lil-pt-2;
+    }
+}
+@screen md {
+    .lil-card {
+        height: 300px;
+        width: 300px;
+    }
+    .lil-card > .lil-card-footer {
+        @apply lil-pt-2;
+    }
+}
 @screen sm {
     .lil-card {
         height: 144px;
