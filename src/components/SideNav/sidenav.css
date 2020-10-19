@@ -2,8 +2,7 @@
     transform: translateX(-100%);
     transition: all 0.5s ease 0s;
     height: 120vh;
-    @apply lil-z-20 lil-fixed lil-bg-white lil-overflow-x-hidden lil-w-screen lil-visible lil-left-0;
-    transform: translateX(0%);
+    @apply lil-z-20 lil-fixed lil-bg-white lil-overflow-x-hidden lil-w-screen lil-left-0;
 }
 
 .lil-sidenav-right-aligned {
@@ -13,12 +12,12 @@
     @apply lil-right-0;
 }
 
-.lil-sidenav .lil-sidenav-open {
+.lil-sidenav-open {
     transform: translateX(0%);
     @apply lil-block lil-visible;
 }
 
-.lil-sidenav-right-aligned .lil-sidenav-open {
+.lil-right-aligned-sidenav-open {
     transform: translateX(-100%);
     @apply lil-block lil-visible;
 }
