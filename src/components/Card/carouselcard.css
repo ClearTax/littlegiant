@@ -3,7 +3,7 @@ The css colors have to be updated with tailwind utility colors
 */
 .lil-carousel-card {
   /*Fixed width for lg and xl screens*/
-  @apply lil-rounded-xl lil-w-full lil-min-w-full lil-bg-white lil-items-center lil-overflow-auto lil-shadow-xl;
+  @apply lil-rounded-xl lil-w-full lil-bg-white lil-items-center lil-overflow-auto lil-shadow-xl;
 }
 
 .lil-carousel-card .lil-carousel-card-review {
