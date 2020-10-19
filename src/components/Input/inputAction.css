@@ -4,8 +4,7 @@
     */
     width:inherit;
     height: 45px;
-    box-shadow: 0px 0px 8px 0px; 
-    @apply lil-flex lil-justify-between lil-items-center lil-bg-white lil-rounded-md;
+    @apply lil-flex lil-justify-between lil-items-center lil-bg-white lil-shadow-sm lil-rounded-md;
 }
 
 .lil-input-action-wrapper > .lil-input{
@@ -16,13 +15,7 @@
     @apply lil-btn lil-btn-link lil-items-center lil-text-base lil-font-bold;
 }
 
-@screen sm{
-    .lil-input-action-wrapper{
-        height: 25px;
-        box-shadow: 0px 0px 8px 0px; 
-        @apply lil-flex lil-justify-between lil-items-center lil-bg-white lil-rounded-md;
-    }
-    
+@screen sm{    
     .lil-input-action-wrapper > .lil-input{
         @apply lil-items-center lil-text-s-10 lil-px-2;
     }
@@ -37,4 +30,3 @@
 .lil-action:focus{
     @apply lil-outline-none;
 }
-
