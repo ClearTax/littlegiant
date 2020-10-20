@@ -8,7 +8,7 @@
 }
 .lil-tabs > .lil-tab {
     min-width: 250px;
-    @apply lil-h-full lil-bg-grey-100 lil-m-0 lil-inline-block lil-text-font-500 lil-text-s-24 lil-font-bold;
+    @apply lil-h-full lil-bg-grey-100 lil-m-0 lil-inline-block lil-outline-none lil-text-font-500 lil-text-s-24 lil-font-bold;
 }
 .lil-tab > a:first-child {
     text-overflow: ellipsis;
@@ -18,10 +18,10 @@
     @apply lil-w-8 lil-h-8 lil-my-0 lil-mx-auto; 
 }
 .lil-tab-active > a {
-    @apply lil-text-blue-350;
+    @apply lil-text-blue-350 lil-outline-none;
 }
 .lil-tab > a:hover, a:active {
-    @apply lil-text-blue-350 lil-no-underline;
+    @apply lil-text-blue-350 lil-no-underline lil-outline-none;
 }
 .lil-tabs-fixed {
     @apply lil-fixed lil-top-0 lil-right-0 lil-left-0;
