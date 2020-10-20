@@ -10,6 +10,10 @@
 .lil-dropdown:hover:after {
     content: '';
     transform: rotate(45deg);
+    /* for IE */
+    border-top: 2px solid #CFD4DD;
+    border-left: 2px solid #CFD4DD;
+    /*  */
     border-top: 2px solid var(--grey-400);
     border-left: 2px solid var(--grey-400);
     bottom: -10px;
@@ -17,6 +21,9 @@
     @apply lil-block lil-absolute lil-bg-white lil-z-40 lil-h-4 lil-w-4;
 }
 .lil-dropdown .lil-dropdown-menu {
+    /* for IE */
+    box-shadow: 0px 1px 2px 3px #CFD4DD;
+    /*  */
     box-shadow: 0px 1px 2px 3px var(--grey-400);
     width: 350px;
     @apply lil-absolute lil-hidden lil-pt-1 lil-rounded-lg lil-mt-1 lil-p-4;
@@ -25,6 +32,9 @@
     @apply lil-block lil-z-30 lil-bg-white;
 }
 .lil-dropdown:hover .lil-dropdown-full-menu {
+    /* for IE */
+    box-shadow: 0px 1px 2px 3px #CFD4DD;
+    /*  */
     box-shadow: 0px 1px 2px 3px var(--grey-400);
     left: 0.5rem;
     right: 0.5rem;
