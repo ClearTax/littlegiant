@@ -1,12 +1,11 @@
 .lil-caret {
-    @apply lil-h-3 lil-w-2 lil-items-center;
+    @apply lil-h-0 lil-w-0 lil-border-xl lil-border-transparent lil-items-center;
 }
 
 .lil-caret-up {
-    @apply lil-border-none;
+    border-bottom-color:black;
 }
 
 .lil-caret-down {
-    transform: rotate(180deg);
-    @apply lil-border-none;
+    border-top-color: black;
 }
