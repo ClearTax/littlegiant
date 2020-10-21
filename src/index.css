@@ -10,4 +10,5 @@
 @import "./components/Input/inputAction.css";
 @import "./components/Common/common.css";
 @import "./components/Common/navbar.css";
+@import "./components/Common/caret.css";
 @import "./components/SideNav/sidenav.css";

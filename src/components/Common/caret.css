@@ -1,15 +1,12 @@
 .lil-caret {
-    @apply lil-h-3 lil-w-3;
+    @apply lil-h-3 lil-w-2 lil-items-center;
 }
 
 .lil-caret-up {
-    border-bottom: none;
-    border-right: none;
-    @apply lil-border-t-md lil-border-l-md lil-border-grey-450 lil-border-solid lil-rotate-45;
+    @apply lil-border-none;
 }
 
 .lil-caret-down {
-    border-top: none;
-    border-left: none;
-    @apply lil-border-b-md lil-border-r-md lil-border-grey-450 lil-border-solid lil-rotate-45;
+    transform: rotate(180deg);
+    @apply lil-border-none;
 }
