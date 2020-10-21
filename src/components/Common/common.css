@@ -6,8 +6,28 @@ details > summary:focus {
     outline: none;
 }
 
-@responsive {
+@screen xl {
     .lil-container {
-        @apply lil-px-4;
+        @apply lil-w-full;
+        max-width: 1440px;
+        padding: 0 135px;
+        margin: 0 auto;
+    }
+}
+@screen lg {
+    .lil-container {
+        padding: 0 24px;
+        margin: 0 auto;
+    }
+}
+@screen md {
+    .lil-container {
+        padding: 0 24px;
+        margin: 0 auto;
+    }
+}
+@screen sm {
+    .lil-container {
+        padding: 0 24px;
     }
 }
