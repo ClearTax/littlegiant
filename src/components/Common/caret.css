@@ -3,9 +3,10 @@
 }
 
 .lil-caret-up {
-    border-bottom-color:black;
+    border-top-color:black;
 }
 
 .lil-caret-down {
-    border-top-color: black;
+    border-bottom-color: black;
 }
+
