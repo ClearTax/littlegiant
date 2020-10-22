@@ -172,9 +172,6 @@ module.exports = {
       30: 30,
       40: 40,
     },
-    container: {
-      center: true,
-    },
   },
   variants: {},
   plugins: [],

@@ -7,3 +7,4 @@
 
 @import "tailwindcss/utilities";
 @import "./variables.css";
+@import "./components/Common/common.css";
