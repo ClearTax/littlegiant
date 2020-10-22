@@ -21,7 +21,7 @@
     }
     
     .lil-input-action-wrapper > .lil-action{
-        @apply lil-btn lil-items-center lil-text-s-12 lil-font-bold lil-h-4;
+        @apply lil-btn lil-items-center lil-text-s-12 lil-font-bold;
     }
 }
 .lil-input:hover,
