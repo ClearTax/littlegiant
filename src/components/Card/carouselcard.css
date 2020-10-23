@@ -3,7 +3,7 @@ The css colors have to be updated with tailwind utility colors
 */
 .lil-carousel-card {
   /*Fixed width for lg and xl screens*/
-  @apply lil-rounded-xl lil-w-full lil-bg-white lil-items-center lil-overflow-auto lil-shadow-xl lil-outline-none;
+  @apply lil-rounded-xl lil-w-full lil-bg-white lil-items-center lil-shadow-xl lil-outline-none;
 }
 
 .lil-carousel-card .lil-carousel-card-review {
@@ -19,11 +19,11 @@ The css colors have to be updated with tailwind utility colors
 }
 
 .lil-carousel-card-review > .lil-carousel-card-review-content {
-  @apply lil-text-s-24 lil-text-font-200 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left;
+  @apply lil-text-s-20 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left lil-text-font-200 lil-font-medium;
 }
 
-.lil-carousel-card > .lil-carousel-card-footer {
-  @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2 lil-mb-6;
+.lil-carousel-card .lil-carousel-card-footer {
+  @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2;
 }
 
 .lil-carousel-card-footer .lil-carousel-card-footer-image {
@@ -49,7 +49,7 @@ The css colors have to be updated with tailwind utility colors
   }
 
   .lil-carousel-card-review > .lil-carousel-card-review-content {
-    @apply lil-text-font-200 lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
+    @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
   }
 
   .lil-carousel-card-footer .lil-carousel-card-footer-image {
@@ -63,7 +63,7 @@ The css colors have to be updated with tailwind utility colors
 
 @screen sm {
   .lil-carousel-card {
-    @apply lil-min-w-full;
+    @apply lil-w-full;
   }
   .lil-carousel-card .lil-carousel-card-review {
     @apply lil-w-full;
@@ -74,7 +74,7 @@ The css colors have to be updated with tailwind utility colors
   }
 
   .lil-carousel-card > .lil-carousel-card-footer {
-    @apply lil-flex lil-justify-between lil-flex-wrap lil-items-center lil-px-6 lil-mt-4 lil-mb-6;
+    @apply lil-flex lil-justify-between lil-flex-wrap lil-items-center lil-px-6 lil-mt-4;
   }
 
   .lil-carousel-card-review > .lil-carousel-card-review-heading {
@@ -82,7 +82,7 @@ The css colors have to be updated with tailwind utility colors
   }
 
   .lil-carousel-card-review > .lil-carousel-card-review-content {
-    @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left lil-text-font-200;
+    @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
   }
 
   .lil-carousel-card-footer .lil-carousel-card-footer-image {
