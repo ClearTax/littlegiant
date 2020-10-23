@@ -1,6 +1,10 @@
 .lil-nav {
     @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10 lil-h-20 lil-top-0;
 }
+.lil-nav-bg-blur {
+    backdrop-filter: blur(63px);
+    @apply lil-bg-transparent;
+}
 .lil-nav .lil-nav-link {
     @apply lil-inline-block lil-cursor-pointer;
 }

@@ -1,7 +1,7 @@
 .lil-sidenav {
     transform: translateX(-100%);
     transition: all 0.5s ease 0s;
-    height: 120vh;
+    height: 100vh;
     @apply lil-z-20 lil-fixed lil-bg-white lil-overflow-x-hidden lil-w-screen lil-left-0;
 }
 
