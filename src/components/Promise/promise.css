@@ -1,6 +1,6 @@
 /** Promise */
 .lil-promise {
-    @apply lil-p-5;
+    @apply lil-p-5 lil-pl-0;
 }
 .lil-promise-horizontal {
     @apply lil-promise lil-w-auto lil-h-auto;
@@ -11,7 +11,7 @@
 }
 .lil-promise-horizontal .lil-promise-content {
     height: 75%;
-    @apply lil-w-full lil-break-words lil-mt-4;
+    @apply lil-w-full lil-break-words lil-pt-6;
 }
 
 .lil-promise-vertical {

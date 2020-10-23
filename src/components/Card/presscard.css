@@ -1,6 +1,5 @@
 .lil-presscard {
   height: 320px;
-  min-width: 280px;
   @apply lil-rounded-xl lil-shadow-xl lil-bg-white lil-outline-none lil-align-middle lil-justify-between;
 }
 .lil-presscard > .lil-presscard-heading {
