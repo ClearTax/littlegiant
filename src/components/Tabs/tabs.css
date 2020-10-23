@@ -17,7 +17,7 @@
 .lil-tab .lil-tab-icon {
     @apply lil-w-8 lil-h-8 lil-my-0 lil-mx-auto; 
 }
-.lil-tab-active > a {
+.lil-tab-active .lil-tab-heading-text {
     @apply lil-text-blue-350 lil-outline-none;
 }
 .lil-tab > a:hover, a:active {
@@ -37,7 +37,7 @@
     .lil-tabs .lil-tab-active {
         @apply lil-bg-blue-350;
     }
-    .lil-tab-active > a {
+    .lil-tab-active .lil-tab-heading-text {
         @apply lil-text-white;
     }
     .lil-tab > a:first-child {

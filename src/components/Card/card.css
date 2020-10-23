@@ -3,7 +3,7 @@
 .lil-card {
     height: 350px;
     width: 350px;
-    @apply lil-rounded-xl lil-bg-grey-150 lil-p-5 lil-relative lil-cursor-pointer;
+    @apply lil-rounded-xl lil-bg-grey-150 lil-px-5 lil-pt-5 lil-pb-12 lil-relative lil-cursor-pointer;
 }
 .lil-card > .lil-card-header {
     height: 65%;
@@ -14,10 +14,17 @@
 }
 .lil-card > .lil-card-footer {
     height: 35%;
-    @apply lil-w-full lil-clear-both lil-pt-4;
+    @apply lil-w-full lil-clear-both lil-pt-4 lil-flex;
 }
 .lil-card > .lil-card-content {
-    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-transparent lil-absolute lil-top-0 lil-left-0 lil-text-white lil-whitespace-normal lil-py-12 lil-px-8;
+    line-height: 180%;
+    @apply lil-rounded-xl lil-hidden lil-h-full lil-w-full lil-bg-transparent lil-absolute lil-top-0 lil-left-0 lil-text-white lil-whitespace-normal lil-py-12 lil-pl-8 lil-pr-5 lil-text-s-20;
+}
+.lil-card-content .lil-header {
+    height: 45%;
+}
+.lil-card-content .lil-footer {
+    height: 55%;
 }
 .lil-card:hover > .lil-card-content {
     @apply lil-block;
@@ -30,6 +37,9 @@
     .lil-card > .lil-card-footer {
         @apply lil-pt-2;
     }
+    .lil-card > .lil-card-content {
+        @apply lil-text-base;
+    }
 }
 @screen md {
     .lil-card {
@@ -39,17 +49,31 @@
     .lil-card > .lil-card-footer {
         @apply lil-pt-2;
     }
+    .lil-card > .lil-card-content {
+        @apply lil-text-base;
+    }
 }
 @screen sm {
     .lil-card {
         height: 144px;
         width: 144px;
+        @apply lil-p-3;
     }
     .lil-card-header .lil-card-icon {
         @apply lil-h-16;
     }
+    .lil-card > .lil-card-footer {
+        @apply lil-pt-0;
+    }
     .lil-card > .lil-card-content {
-        @apply lil-py-2 lil-px-2 lil-text-s-12;
+        line-height: none;
+        @apply lil-py-2 lil-px-2 lil-text-s-10;
+    }
+    .lil-card-content .lil-header {
+        height: 25%;
+    }
+    .lil-card-content .lil-footer {
+        height: 75%;
     }
 }
 .lil-stat-card {
