@@ -11,7 +11,7 @@
 .lil-dropdown {
     @apply lil-relative lil-inline-block;
 }
-.lil-dropdown:hover:before {
+.lil-dropdown-open:before {
     content: '';
     transform: rotate(45deg);
     /* for IE */
@@ -31,10 +31,10 @@
     width: 350px;
     @apply lil-fixed lil-hidden lil-pt-1 lil-rounded-lg lil-mt-1;
 }
-.lil-dropdown:hover .lil-dropdown-menu {
+.lil-dropdown-open .lil-dropdown-menu {
     @apply lil-block lil-z-30 lil-bg-white;
 }
-.lil-dropdown:hover .lil-dropdown-full-menu {
+.lil-dropdown-open .lil-dropdown-full-menu {
     /* for IE */
     box-shadow: 0px 1px 2px 3px #CFD4DD;
     /*  */
