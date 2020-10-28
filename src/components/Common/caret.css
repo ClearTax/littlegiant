@@ -2,15 +2,16 @@
     @apply lil-h-2 lil-w-2 lil-border-xl lil-border-transparent lil-items-center;
 }
 
-.lil-caret-down {
+.lil-caret-up {
     border-right:none;
     border-bottom: none;
     @apply lil-border-t-md lil-border-l-md lil-border-font-500 lil-transform lil-rotate-45;
 }
 
-.lil-caret-up {
+.lil-caret-down {
     border-top: none;
     border-left: none;
-    @apply lil-border-b-md lil-border-r-md lil-border-font-500 lil-transform lil-rotate-45;
+    top: -2px;
+    @apply lil-relative lil-border-b-md lil-border-r-md lil-border-font-500 lil-transform lil-rotate-45;
 }
 
