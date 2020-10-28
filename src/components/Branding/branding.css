@@ -1,0 +1,34 @@
+.lil-brand-text {
+    bottom: -1rem;
+    right: 1rem;
+    @apply lil-absolute lil-bg-white lil-text-s-18 lil-font-medium lil-px-4 lil-text-font-300;
+}
+
+.lil-branding {
+  @apply lil-flex lil-flex-wrap lil-w-full lil-mt-24 lil-py-16 lil-px-8 lil-relative lil-mb-40 lil-border-grey-300 lil-border-md lil-justify-center lil-rounded-lg;
+}
+
+.lil-branding .lil-branding-triplet{
+    @apply lil-flex lil-py-4 lil-justify-around lil-w-1/2;
+}
+
+
+@screen md{
+    .lil-branding .lil-branding-triplet{
+        @apply lil-w-full;
+    }
+}
+
+@screen sm {
+    .lil-brand-text{
+        @apply lil-relative;
+    }
+
+  .lil-branding {
+    @apply lil-border-none lil-px-2 lil-mb-24 lil-pb-0;
+  }
+
+  .lil-branding .lil-branding-triplet{
+    @apply lil-justify-between lil-w-full;
+  }
+}

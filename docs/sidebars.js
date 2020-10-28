@@ -15,6 +15,7 @@ module.exports = {
         items: ["border-radius", "border-width"],
       },
       "box-shadow",
+      "branding",
       "button",
       {
         type: "category",
