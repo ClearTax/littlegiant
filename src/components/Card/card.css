@@ -3,7 +3,7 @@
 .lil-card {
     height: 350px;
     width: 350px;
-    @apply lil-rounded-xl lil-bg-grey-150 lil-px-5 lil-pt-5 lil-pb-12 lil-relative lil-cursor-pointer;
+    @apply lil-rounded-xl lil-bg-grey-175 lil-px-5 lil-pt-5 lil-pb-12 lil-relative lil-cursor-pointer;
 }
 .lil-card > .lil-card-header {
     height: 65%;
