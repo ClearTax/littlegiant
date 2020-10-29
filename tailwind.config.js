@@ -149,9 +149,6 @@ module.exports = {
       tight: 1.2,
       loose: 1.5,
     },
-    maxWidth: {
-      'screen-xl': '1440px',
-    },
     opacity: {
       0: "0",
       25: "0.25",
