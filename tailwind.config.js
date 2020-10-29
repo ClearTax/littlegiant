@@ -59,6 +59,7 @@ module.exports = {
       grey: {
         100: "var(--grey-100, #FAFAFA)",
         150: "var(--grey-150, #F5F5F5)",
+        175: "var(--grey-175, #F7F8FA)",
         200: "var(--grey-200, #FAFBFF)",
         250: "var(--grey-250, #EEEEEE)",
         300: "var(--grey-300, #E0E0E0)",
@@ -106,7 +107,7 @@ module.exports = {
       sm: "0 8px 13px rgba(70, 74, 85, 0.08)",
       md: "0 13px 22px rgba(70, 74, 85, 0.08)",
       lg: "0 0 34px rgba(70, 74, 85, 0.10)",
-      xl: "0px 30px 60px 0px rgba(162, 172, 178, 0.2)",
+      xl: "0px 30px 60px 0px var(--shadow-xl, rgba(164, 172, 179, 0.2))",
     },
     cursor: {
       pointer: "pointer",

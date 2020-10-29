@@ -2,6 +2,7 @@
 #lil-root {
     --grey-100: #FAFAFA;
     --grey-150: #F5F5F5;
+    --grey-175: #F7F8FA;
     --grey-200: #FAFBFF;
     --grey-250: #EEEEEE;
     --grey-300: #E0E0E0;
@@ -11,4 +12,7 @@
     --grey-500: #8B8F99;
     --grey-550: #686D77;
     --grey-600: #23282E;
+    /* Box shadow */
+    --shadow-xl:rgba(164, 172, 179, 0.2);
+    /*  */
 }
