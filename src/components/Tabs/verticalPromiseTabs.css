@@ -1,0 +1,7 @@
+.lil-vertical-promise-tabs{
+    @apply lil-list-none lil-overflow-x-auto lil-sticky;
+}
+.lil-vertical-promise-tabs > .lil-promise-tab{
+    height:100px;
+    @apply lil-bg-blue-100 lil-m-0 lil-inline-block lil-outline-none;
+}
