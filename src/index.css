@@ -13,3 +13,5 @@
 @import "./components/Common/navbar.css";
 @import "./components/Common/caret.css";
 @import "./components/SideNav/sidenav.css";
+@import "./components/Tabs/verticalPromiseTabs.css";
+
