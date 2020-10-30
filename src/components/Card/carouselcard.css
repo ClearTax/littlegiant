@@ -7,7 +7,7 @@ The css colors have to be updated with tailwind utility colors
 }
 
 .lil-carousel-card .lil-carousel-card-review {
-  @apply lil-w-4/5;
+  @apply lil-w-5/6;
 }
 
 .lil-carousel-card .lil-carousel-card-image {
