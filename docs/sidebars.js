@@ -33,6 +33,7 @@ module.exports = {
       },
       "reinforcement",
       "tabs",
+      "tickmark",
       {
         type: "category",
         label: "Typography",
