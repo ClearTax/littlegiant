@@ -3,6 +3,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       blue: {
+        50:  "#F1F7FF",
         100: "#D0E4FE",
         150: "#CFE4FF",
         200: "#8ABBFD",
