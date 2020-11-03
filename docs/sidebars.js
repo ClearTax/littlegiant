@@ -25,6 +25,11 @@ module.exports = {
       "colors",
       "cursor",
       "grid",
+      {
+        type: "category",
+        label: "Icons",
+        items :["tickmark"]
+      },
       "input-action",
       {
         type: "category",
@@ -33,7 +38,6 @@ module.exports = {
       },
       "reinforcement",
       "tabs",
-      "tickmark",
       {
         type: "category",
         label: "Typography",
