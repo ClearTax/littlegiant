@@ -1,0 +1,18 @@
+.lil-product-card{
+    width: 320px;
+    @apply lil-p-5 lil-rounded-xl lil-shadow-xl lil-m-3 lil-mb-20 lil-whitespace-normal lil-outline-none;
+}
+
+.lil-product-card .lil-product-card-header{
+    @apply lil-py-2 lil-px-1 lil-flex lil-justify-between lil-items-center;
+}
+
+.lil-product-card .lil-product-card-content{
+    @apply lil-px-1 lil-py-2 lil-text-base lil-text-font-200;
+}
+
+.lil-product-card .lil-product-card-footer{
+    @apply lil-btn-link lil-py-6 lil-cursor-pointer;
+}
+
+
