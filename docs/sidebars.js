@@ -37,6 +37,7 @@ module.exports = {
         label: "Tabs",
         items: [
           "tabs",
+          "vertical-tabs-w-line",
           "vertical-promise-tabs"
         ]
       },
