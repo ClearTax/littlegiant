@@ -25,6 +25,11 @@ module.exports = {
       "colors",
       "cursor",
       "grid",
+      {
+        type: "category",
+        label: "Icons",
+        items :["tickmark"]
+      },
       "input-action",
       {
         type: "category",
