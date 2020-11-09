@@ -32,19 +32,10 @@
     }
     .lil-tabs > .lil-tab {
         min-width: 150px;
-        @apply lil-text-base lil-mr-2 lil-rounded-md;
-    }
-    .lil-tabs .lil-tab-active {
-        @apply lil-bg-blue-350;
-    }
-    .lil-tab-active .lil-tab-heading-text {
-        @apply lil-text-white;
+        @apply lil-text-base lil-mr-2;
     }
     .lil-tab > a:first-child {
         @apply lil-py-1;
-    }
-    .lil-tab > a:hover, a:active {
-        @apply lil-text-white;
     }
     .lil-tab .lil-tab-icon {
         @apply lil-w-5 lil-h-5 lil-inline lil-mr-2; 
