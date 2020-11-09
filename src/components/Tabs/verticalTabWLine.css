@@ -56,3 +56,9 @@
 .lil-vertical-tab-active .lil-vertical-tab-writeup{
     @apply lil-flex lil-text-base lil-text-font-200 lil-py-3 lil-visible;
 }
+
+@screen md{
+    .lil-vertical-tab-active .lil-vertical-tab-heading{
+        @apply lil-text-s-20;
+    }
+}
