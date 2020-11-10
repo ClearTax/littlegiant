@@ -1,5 +1,4 @@
 .lil-product-card{
-    width: 320px;
     @apply lil-p-5 lil-rounded-xl lil-shadow-xl lil-m-3 lil-mb-20 lil-whitespace-normal lil-outline-none;
 }
 
