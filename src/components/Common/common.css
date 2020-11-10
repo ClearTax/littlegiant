@@ -6,6 +6,11 @@ details > summary:focus {
     outline: none;
 }
 
+select {
+    background: var(--grey-150);
+    @apply lil-rounded-lg lil-p-3;
+}
+
 @screen xl {
     .lil-container {
         @apply lil-w-full;

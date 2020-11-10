@@ -32,21 +32,35 @@
     }
     .lil-tabs > .lil-tab {
         min-width: 150px;
-        @apply lil-text-base lil-mr-2 lil-rounded-md;
-    }
-    .lil-tabs .lil-tab-active {
-        @apply lil-bg-blue-350;
-    }
-    .lil-tab-active .lil-tab-heading-text {
-        @apply lil-text-white;
+        @apply lil-text-base lil-mr-2;
     }
     .lil-tab > a:first-child {
         @apply lil-py-1;
     }
-    .lil-tab > a:hover, a:active {
-        @apply lil-text-white;
-    }
     .lil-tab .lil-tab-icon {
         @apply lil-w-5 lil-h-5 lil-inline lil-mr-2; 
+    }
+}
+
+/* Rounded tabs */
+.lil-capsule-tabs {
+    /* for capsule shape */
+    border-radius: 1000px;
+    @apply lil-bg-grey-425 lil-h-full lil-flex lil-overflow-x-auto;
+}
+.lil-capsule-tabs .lil-capsule-tab {
+    /* for capsule shape */
+    border-radius: 1000px;
+    @apply lil-flex lil-items-center lil-cursor-pointer;
+}
+.lil-capsule-tabs .lil-capsule-tab-active {
+    @apply lil-bg-blue-350 lil-text-white lil-flex lil-items-center lil-h-full;
+}
+@screen sm {
+    .lil-capsule-tabs {
+        border-radius: 0;
+    }
+    .lil-capsule-tabs .lil-capsule-tab {
+        min-width: 200px;
     }
 }
