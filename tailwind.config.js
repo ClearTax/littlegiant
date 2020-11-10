@@ -174,6 +174,8 @@ module.exports = {
       20: 20,
       30: 30,
       40: 40,
+      400: 400,
+      500: 500, // max z-index value
     },
   },
   variants: {},

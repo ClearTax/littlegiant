@@ -1,0 +1,17 @@
+.lil-modal {
+    max-height: 85%;
+    top: 12%;
+    @apply lil-z-500 lil-fixed lil-h-auto lil-m-auto lil-bg-white lil-overflow-auto lil-left-0 lil-right-0 lil-hidden;
+}
+
+.lil-modal.lil-modal-open {
+    @apply lil-block;
+}
+
+.lil-modal .lil-modal-close {
+    @apply lil-float-right lil-mt-6 lil-mr-4 lil-font-bold;
+}
+
+.lil-modal-overlay {
+    @apply lil-z-400 lil-bg-grey-250 lil-fixed lil-h-screen lil-w-screen lil-opacity-75 lil-top-0 lil-right-0 lil-bottom-0 lil-left-0 lil-hidden;
+}
