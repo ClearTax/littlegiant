@@ -6,7 +6,7 @@
     @apply lil-opacity-50 lil-flex lil-whitespace-normal lil-cursor-pointer lil-outline-none;
 }
 .lil-vertical-tab .lil-vertical-tab-container{
-    @apply lil-flex lil-items-center lil-w-full  lil-border-l-xl lil-border-font-200 lil-flex-wrap;
+    @apply lil-flex lil-w-full  lil-border-l-xl lil-border-font-200 lil-flex-wrap;
 } 
 .lil-vertical-tab-container .lil-vertical-tab-content{
     @apply lil-border-b-sm lil-border-font-200 lil-flex lil-items-center lil-h-full lil-justify-between lil-w-10/12 lil-py-5 lil-flex-wrap;

@@ -1,7 +1,7 @@
 ---
-id: vertical-tabs-w-line
-title: Vertical Tabs With Line
-sidebar_label: Vertical Tabs With Line
+id: line-tab
+title: Tabs With Line
+sidebar_label: Tabs With Line
 ---
 
 ``` html live
@@ -24,7 +24,7 @@ sidebar_label: Vertical Tabs With Line
                             filing and auto-filed 3B and 9 Forms.
                         </div>
                     </div>
-                    <div class="lil-vertical-tab-arrow">&#8594;</div>
+                    <span class="lil-vertical-tab-arrow">&#8594;</span>
                 </a>
             </li>
             <li class="lil-vertical-tab" onclick="verticalTabsWLine(event,'tab2')">
@@ -42,7 +42,7 @@ sidebar_label: Vertical Tabs With Line
                             filing and auto-filed 3B and 9 Forms.
                         </div>
                     </div>
-                    <div class="lil-vertical-tab-arrow">&#8594;</div>
+                    <span class="lil-vertical-tab-arrow">&#8594;</span>
                 </a>
             </li>
             <li class="lil-vertical-tab" onclick="verticalTabsWLine(event,'tab3')">
@@ -60,7 +60,7 @@ sidebar_label: Vertical Tabs With Line
                             filing and auto-filed 3B and 9 Forms.
                         </div>
                     </div>
-                    <div class="lil-vertical-tab-arrow">&#8594;</div>
+                    <span class="lil-vertical-tab-arrow">&#8594;</span>
                 </a>
             </li>
             <li class="lil-vertical-tab" onclick="verticalTabsWLine(event,'tab4')">
@@ -78,7 +78,7 @@ sidebar_label: Vertical Tabs With Line
                             filing and auto-filed 3B and 9 Forms.
                         </div>
                     </div>
-                    <div class="lil-vertical-tab-arrow">&#8594;</div>
+                    <span class="lil-vertical-tab-arrow">&#8594;</span>
                 </a>
             </li>
             <li class="lil-vertical-tab" onclick="verticalTabsWLine(event,'tab5')">
@@ -96,7 +96,7 @@ sidebar_label: Vertical Tabs With Line
                             filing and auto-filed 3B and 9 Forms.
                         </div>
                     </div>
-                    <div class="lil-vertical-tab-arrow">&#8594;</div>
+                    <span class="lil-vertical-tab-arrow">&#8594;</span>
                 </a>
             </li>
         </ul>
