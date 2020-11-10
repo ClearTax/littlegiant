@@ -66,6 +66,7 @@ module.exports = {
         300: "var(--grey-300, #E0E0E0)",
         350: "var(--grey-350, #D6D6D6)",
         400: "var(--grey-400, #CFD4DD)",
+        425: "var(--grey-400, #C4C4C4)",
         450: "var(--grey-450, #ADB1BB)",
         500: "var(--grey-500, #8B8F99)",
         550: "var(--grey-550, #686D77)",

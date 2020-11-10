@@ -2,7 +2,6 @@
     @apply lil-list-none lil-overflow-x-auto;
 }
 .lil-vertical-promise-tabs > .lil-promise-tab{
-    min-height:100px;
     @apply lil-bg-grey-100 lil-opacity-50 lil-p-5 lil-outline-none lil-flex lil-whitespace-normal lil-rounded-xl lil-cursor-pointer;
 }
 
