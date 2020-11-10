@@ -1,6 +1,6 @@
 .lil-modal {
-    max-height: 70%;
-    top: 20%;
+    max-height: 85%;
+    top: 12%;
     @apply lil-z-500 lil-fixed lil-h-auto lil-m-auto lil-bg-white lil-overflow-auto lil-left-0 lil-right-0 lil-hidden;
 }
 
