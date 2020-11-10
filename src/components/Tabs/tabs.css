@@ -58,7 +58,7 @@
 }
 @screen sm {
     .lil-capsule-tabs {
-        border-radius: 0;
+        @apply lil-sticky;
     }
     .lil-capsule-tabs .lil-capsule-tab {
         min-width: 200px;
