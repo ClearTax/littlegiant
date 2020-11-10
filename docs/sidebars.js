@@ -20,7 +20,7 @@ module.exports = {
       {
         type: "category",
         label: "Cards",
-        items: ["cards","carousel-card", "faq-card", "presscard"],
+        items: ["cards","carousel-card", "faq-card", "presscard","product-card"],
       },
       "colors",
       "cursor",
