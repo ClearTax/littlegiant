@@ -16,6 +16,7 @@ module.exports = {
         550: "#07244B",
       },
       clearsky: {
+        50:  "#F3F6FB",
         100: "#E7F7FF",
         200: "#C4EAFF",
         300: "#89D6FF",
