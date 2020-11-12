@@ -11,6 +11,13 @@ select {
     @apply lil-rounded-lg lil-p-3;
 }
 
+/*
+* - border-spacing not supported in tailwind
+*/
+.lil-border-spacing-0 {
+    border-spacing: 0;
+}
+
 @screen xl {
     .lil-container {
         @apply lil-w-full;

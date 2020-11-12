@@ -39,6 +39,11 @@ module.exports = {
       "reinforcement",
       {
         type: "category",
+        label: "Table",
+        items: ["table"]
+      },
+      {
+        type: "category",
         label: "Tabs",
         items: [
           "tabs",

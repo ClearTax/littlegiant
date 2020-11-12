@@ -7,3 +7,7 @@
     top: -2px;
     @apply lil-relative lil-w-1 lil-h-2 lil-border-b-sm lil-border-r-sm lil-border-font-200 lil-transform lil-rotate-45 lil-inline-block;
 }
+
+.lil-tick-xl{
+    @apply lil-relative lil-w-2 lil-h-4 lil-border-b-md lil-border-r-md lil-border-green-200 lil-transform lil-rotate-45 lil-inline-block
+}
