@@ -14,26 +14,26 @@ select {
 /*
 * - border-spacing not supported in tailwind
 */
-table {
+.lil-border-spacing-0 {
     border-spacing: 0;
 }
 
 /*
 * to make rounded corners by assigning border-radius for each corner cell
 */
-thead tr:first-child th:first-child {
+.lil-thead tr:first-child th:first-child {
     @apply lil-rounded-tl-xl;
 }
 
-thead tr:first-child th:last-child {
+.lil-thead tr:first-child th:last-child {
     @apply lil-rounded-tr-xl;
 }
 
-tbody tr:last-child td:first-child {
+.lil-tbody tr:last-child td:first-child {
     @apply lil-rounded-bl-xl;
 }
 
-tbody tr:last-child td:last-child {
+.lil-tbody tr:last-child td:last-child {
     @apply lil-rounded-br-xl;
 }
 
