@@ -1,3 +1,6 @@
+/*
+* to make rounded corners by assigning border-radius for each corner cell
+*/
 .lil-table-round tr:first-child th:first-child {
     @apply lil-rounded-tl-xl;
 }

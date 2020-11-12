@@ -18,10 +18,6 @@ select {
     border-spacing: 0;
 }
 
-/*
-* to make rounded corners by assigning border-radius for each corner cell
-*/
-
 @screen xl {
     .lil-container {
         @apply lil-w-full;
