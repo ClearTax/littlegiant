@@ -25,5 +25,10 @@ sidebar_label: Button
       <div class="lil-btn-round lil-text-font-500 lil-mx-4">L</div>
       <div class="lil-btn-round lil-text-font-500">R</div>
     </div>
+
+    <div class="lil-flex lil-pt-5">
+      <div class="lil-btn-round-white lil-text-font-500 lil-mx-4">L</div>
+      <div class="lil-btn-round-white lil-text-font-500">R</div>
+    </div>
 </>
 ```
