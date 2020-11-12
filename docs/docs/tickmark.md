@@ -19,6 +19,7 @@ sidebar_label: Tick Mark
             <div class="lil-tick lil-border-white"></div>
         </div>
 
+        <div class="lil-tick-xl"></div>
     </div>
 </>
 ```
