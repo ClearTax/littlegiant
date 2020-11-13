@@ -14,6 +14,7 @@
 @import "./components/Promise/promise.css";
 @import "./components/Reinforcement/reinforcement.css";
 @import "./components/SideNav/sidenav.css";
+@import "./components/Table/table.css";
 @import "./components/Tabs/tabs.css";
 @import "./components/Tabs/lineTab.css";
 @import "./components/Tabs/verticalPromiseTabs.css";
