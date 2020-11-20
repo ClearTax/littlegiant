@@ -26,6 +26,10 @@
 .lil-tabs-fixed {
     @apply lil-fixed lil-top-0 lil-right-0 lil-left-0;
 }
+.lil-tab-heading-text:hover{
+    @apply lil-text-blue-350;
+}
+
 @screen sm {
     .lil-tabs {
         height: 50px;

@@ -3,7 +3,7 @@
 }
 
 .lil-reinforcement > .lil-reinforcement-content-wrapper {
-  @apply lil-px-12 lil-my-3 lil-justify-between lil-w-full lil-flex lil-items-center;
+  @apply lil-px-12  lil-justify-between lil-w-full lil-flex lil-items-center;
 }
 
 .lil-reinforcement-content-wrapper  .lil-reinforcement-title {
@@ -20,7 +20,7 @@
   }
   
   .lil-reinforcement > .lil-reinforcement-content-wrapper {
-    @apply lil-px-4 lil-w-full lil-my-3 lil-justify-between lil-flex-col-reverse;
+    @apply lil-px-4 lil-w-full  lil-justify-between lil-flex-col-reverse;
   }
   
   .lil-reinforcement-content-wrapper  .lil-reinforcement-title {
