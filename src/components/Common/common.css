@@ -18,6 +18,17 @@ select {
     border-spacing: 0;
 }
 
+.lil-guitar {
+    max-width: 1440px;
+    padding-left: 135px;
+    padding-right: 135px;
+    background-image:url("https://assets1.cleartax-cdn.com/cleartax/images/1606115783_patterns.png");
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+    background-size: auto; 
+    @apply lil-mx-auto lil-w-full;
+}
+
 @screen xl {
     .lil-container {
         @apply lil-w-full;
@@ -28,12 +39,14 @@ select {
     }
 }
 @screen lg {
-    .lil-container {
+    .lil-container,
+    .lil-guitar {
         @apply lil-px-6 lil-mx-auto;
     }
 }
 @screen md {
-    .lil-container {
+    .lil-container,
+    .lil-guitar {
         @apply lil-px-6 lil-mx-auto;
     }
 }
@@ -41,4 +54,9 @@ select {
     .lil-container {
         @apply lil-px-6;
     }
+    .lil-guitar {
+        background-size: 75%;
+        @apply lil-px-6;
+    }
 }
+
