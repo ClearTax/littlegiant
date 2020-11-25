@@ -50,7 +50,7 @@
 .lil-capsule-tabs {
     /* for capsule shape */
     border-radius: 1000px;
-    @apply lil-bg-grey-425 lil-h-full lil-flex lil-overflow-x-auto;
+    @apply lil-bg-grey-150 lil-h-full lil-flex lil-overflow-x-auto;
 }
 .lil-capsule-tabs .lil-capsule-tab {
     /* for capsule shape */

@@ -30,15 +30,15 @@
 
 @screen sm {
   .lil-brand-text {
-    bottom: -4rem;
+    bottom: -2rem;
     @apply lil-relative;
   }
 
   .lil-branding {
-    @apply lil-px-2 lil-mb-24 lil-pb-0;
+    @apply lil-px-2 lil-mb-24 lil-pb-0 lil-mt-0;
   }
 
   .lil-branding .lil-branding-triplet {
-    @apply lil-justify-between lil-w-full;
+    @apply lil-justify-between lil-w-full lil-my-4 lil-py-0;
   }
 }
