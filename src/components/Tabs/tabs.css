@@ -26,13 +26,16 @@
 .lil-tabs-fixed {
     @apply lil-fixed lil-top-0 lil-right-0 lil-left-0;
 }
-.lil-tab-heading-text:hover{
-    @apply lil-text-blue-350;
+/*For touch devices with sticky hover*/
+@media (hover: none){
+    .lil-tab > a:hover{
+        @apply lil-text-font-500;
+    }
 }
 
 @screen sm {
     .lil-tabs {
-        height: 50px;
+        height: 60px;
     }
     .lil-tabs > .lil-tab {
         min-width: 150px;

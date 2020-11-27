@@ -53,7 +53,7 @@ The css colors have to be updated with tailwind utility colors
   }
 
   .lil-carousel-card-footer .lil-carousel-card-footer-image {
-    @apply lil-w-10 lil-h-10 lil-rounded-full lil-bg-grey-400 lil-items-center lil-justify-center lil-flex;
+    @apply lil-w-10 lil-h-10 lil-rounded-full lil-items-center lil-justify-center lil-flex;
   }
 
   .lil-carousel-card-footer .lil-carousel-card-footer-action {
@@ -63,6 +63,7 @@ The css colors have to be updated with tailwind utility colors
 
 @screen sm {
   .lil-carousel-card {
+    height: 450px;
     @apply lil-w-full;
   }
   .lil-carousel-card .lil-carousel-card-review {
@@ -74,23 +75,23 @@ The css colors have to be updated with tailwind utility colors
   }
 
   .lil-carousel-card  .lil-carousel-card-footer {
-    @apply lil-flex lil-justify-between lil-flex-wrap lil-items-center lil-px-2 lil-mt-4;
+    @apply lil-flex lil-justify-between lil-flex-wrap lil-items-center lil-px-0 lil-mt-4;
   }
 
   .lil-carousel-card-review > .lil-carousel-card-review-heading {
-    @apply lil-text-s-20 lil-font-bold lil-px-6 lil-py-4 lil-whitespace-normal lil-text-font-500;
+    @apply lil-text-s-20 lil-font-bold lil-px-0 lil-py-4 lil-whitespace-normal lil-text-font-500;
   }
 
   .lil-carousel-card-review > .lil-carousel-card-review-content {
-    @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
+    @apply lil-text-s-12 lil-whitespace-normal lil-px-0 lil-py-4 lil-text-left;
   }
 
   .lil-carousel-card-footer .lil-carousel-card-footer-image {
-    @apply lil-w-10 lil-h-10 lil-rounded-full lil-bg-grey-400 lil-items-center lil-justify-center lil-flex;
+    @apply lil-w-10 lil-h-10 lil-rounded-full lil-items-center lil-justify-center lil-flex;
   }
 
   .lil-carousel-card-footer .lil-carousel-card-footer-action {
-    @apply lil-py-4 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
+    @apply lil-pt-6 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
   }
 }
 
