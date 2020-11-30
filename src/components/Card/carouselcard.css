@@ -63,7 +63,6 @@ The css colors have to be updated with tailwind utility colors
 
 @screen sm {
   .lil-carousel-card {
-    height: 450px;
     @apply lil-w-full;
   }
   .lil-carousel-card .lil-carousel-card-review {
