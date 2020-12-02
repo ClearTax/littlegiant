@@ -117,11 +117,7 @@ module.exports = {
       md: "0 13px 22px rgba(70, 74, 85, 0.08)",
       lg: "0 0 34px rgba(70, 74, 85, 0.10)",
       xl: "0px 30px 60px 0px rgba(164, 172, 179, 0.2)",
-    },
-    shadow :{
-      none: {
-        "box-shadow": "none"
-      }
+      none: "none",
     },
     cursor: {
       pointer: "pointer",
