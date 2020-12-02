@@ -3,7 +3,7 @@
 }
 .lil-nav-bg-blur {
     backdrop-filter: blur(63px);
-    background-color: rgb(255,255,255, 0.2);
+    @apply lil-bg-transparent;
 }
 .lil-nav .lil-nav-link {
     @apply lil-inline-block lil-cursor-pointer;
