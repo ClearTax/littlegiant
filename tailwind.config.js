@@ -66,6 +66,7 @@ module.exports = {
         100: "#FAFAFA",
         150: "#F5F5F5",
         175: "#F7F8FA",
+        190: "#F8F9FC",
         200: "#FAFBFF",
         250: "#EEEEEE",
         300: "#E0E0E0",
@@ -76,6 +77,7 @@ module.exports = {
         500: "#8B8F99",
         550: "#686D77",
         600: "#23282E",
+        850: "#1C314F",
       },
       yellow: {
         100: "#FEF6DC",
@@ -115,6 +117,7 @@ module.exports = {
       md: "0 13px 22px rgba(70, 74, 85, 0.08)",
       lg: "0 0 34px rgba(70, 74, 85, 0.10)",
       xl: "0px 30px 60px 0px rgba(164, 172, 179, 0.2)",
+      none: "none",
     },
     cursor: {
       pointer: "pointer",

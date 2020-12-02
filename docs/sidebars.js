@@ -48,7 +48,8 @@ module.exports = {
         items: [
           "tabs",
           "line-tab",
-          "vertical-promise-tabs"
+          "vertical-promise-tabs",
+          "vertical-flat-tabs"
         ]
       },
       {
