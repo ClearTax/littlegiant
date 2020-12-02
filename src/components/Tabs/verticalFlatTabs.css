@@ -1,0 +1,37 @@
+.lil-vertical-flat-tabs{
+    @apply lil-list-none lil-overflow-x-auto;
+}
+
+.lil-vertical-flat-tabs > .lil-flat-tab{
+    @apply lil-bg-white lil-opacity-50 lil-py-5 lil-px-0 lil-outline-none lil-flex lil-whitespace-normal lil-cursor-pointer;
+}
+
+.lil-vertical-flat-tabs .lil-flat-tab-active{
+    @apply lil-opacity-100 lil-bg-blue-50;
+}
+
+.lil-flat-tab-active {
+    background-color: #F8F9FC; 
+    position: relative;
+}
+
+.lil-flat-tab-active:before {
+    top: 0px;  
+    background: #1678FB;
+    content: "";
+    @apply lil-absolute lil-h-full lil-inline-block lil-w-1 lil-align-middle;
+}
+
+.lil-tab-lay-height{
+    height: 49rem;
+}
+
+@screen sm {
+    .lil-vertical-flat-tabs {
+        @apply lil-flex lil-overflow-x-auto;
+    }
+
+    .lil-vertical-flat-tabs > .lil-flat-tab{
+        min-width: 300px;
+    }
+}

@@ -18,4 +18,5 @@
 @import "./components/Tabs/tabs.css";
 @import "./components/Tabs/lineTab.css";
 @import "./components/Tabs/verticalPromiseTabs.css";
+@import "./components/Tabs/verticalFlatTabs.css";
 @import "./components/Text/text.css";
