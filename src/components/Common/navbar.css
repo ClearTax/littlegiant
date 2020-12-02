@@ -17,6 +17,10 @@
 .lil-dropdown-open:before {
     content: '';
     transform: rotate(45deg);
+    /* for IE */
+    border-top: 1px solid rgba(164, 172, 179, 0.2);
+    border-left: 1px solid rgba(164, 172, 179, 0.2);
+    /*  */
     border-top: 1px solid var(--shadow-xl);
     border-left: 1px solid var(--shadow-xl);
     left: 20px;
