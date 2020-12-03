@@ -1,0 +1,49 @@
+.lil-branding {
+  @apply lil-flex lil-flex-wrap lil-w-full lil-mt-24 lil-py-16 lil-px-8 lil-relative lil-mb-40 lil-justify-center lil-border-grey-300 lil-border-md lil-rounded-lg;
+}
+
+.lil-branding.lil-branding-border {
+  @apply lil-border-grey-300 lil-border-md lil-rounded-lg;
+}
+
+.lil-branding .lil-branding-triplet {
+  @apply lil-flex lil-py-4 lil-justify-around lil-w-1/2;
+}
+
+.lil-brand-text {
+  bottom: -1rem;
+  right: 1rem;
+  @apply lil-absolute lil-bg-white lil-text-s-18 lil-font-medium lil-px-4 lil-text-font-300;
+}
+
+.lil-brand-text-bottom-center {
+  bottom: -1rem;
+  right: 50%;
+  transform: translateX(50%);
+  @apply lil-absolute lil-bg-white lil-text-s-18 lil-font-medium lil-px-4 lil-text-font-300;
+}
+
+@screen md {
+  .lil-branding .lil-branding-triplet {
+    @apply lil-w-full;
+  }
+}
+
+@screen sm {
+  .lil-brand-text {
+    bottom: -2rem;
+    @apply lil-relative;
+  }
+
+  .lil-branding {
+    @apply lil-px-2 lil-mb-24 lil-pb-0 lil-mt-0;
+  }
+
+  .lil-branding .lil-branding-triplet {
+    @apply lil-justify-between lil-w-full lil-my-4 lil-py-0;
+  }
+
+  .lil-brand-text-bottom-center {
+    @apply lil-text-base lil-px-2 lil-whitespace-no-wrap;
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "littlegiant",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The little UI Framework",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "npm-run-all -s build:tailwind build:uglify",
-    "build:tailwind": "npx tailwind build src/littlegiant.css -o css/littlegiant.css",
+    "build:tailwind": "npx postcss src/littlegiant.css -o css/littlegiant.css",
+    "build:tailwind-watch": "npx postcss src/littlegiant.css -o css/littlegiant.css --watch",
     "build:uglify": "uglifycss css/littlegiant.css > css/littlegiant.min.css",
     "clean-deps": "clean-deps",
     "docs": "cd docs && npm start",

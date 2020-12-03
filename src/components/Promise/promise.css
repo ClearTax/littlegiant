@@ -1,0 +1,46 @@
+/** Promise */
+.lil-promise {
+    @apply lil-p-5 lil-pl-0;
+}
+.lil-promise-horizontal {
+    @apply lil-promise lil-w-auto lil-h-auto;
+}
+.lil-promise-horizontal .lil-promise-icon-wrapper {
+    height: 25%;
+    @apply lil-w-full;
+}
+.lil-promise-horizontal .lil-promise-content {
+    height: 75%;
+    @apply lil-w-full lil-break-words lil-pt-6;
+}
+
+.lil-promise-vertical {
+    @apply lil-w-full lil-h-auto lil-flex lil-flex-wrap;
+}
+.lil-promise-vertical .lil-promise-icon-wrapper {
+    @apply lil-py-5 lil-pl-5 lil-w-1/4;
+}
+.lil-promise-vertical .lil-promise-content {
+    @apply lil-py-5 lil-pr-5 lil-w-3/4 lil-whitespace-pre-line;
+}
+.lil-promise-vertical .lil-promise-content .lil-promise-heading {
+    @apply lil-text-s-20 lil-font-bold;
+}
+.lil-promise-vertical .lil-promise-content .lil-promise-text {
+    @apply lil-text-s-18;
+}
+@screen sm {
+    .lil-promise-horizontal .lil-promise-content {
+        @apply lil-mt-1;
+    }    
+    .lil-promise-vertical .lil-promise-content .lil-promise-heading, .lil-promise-vertical .lil-promise-content .lil-promise-text {
+        @apply lil-text-base;
+    }
+    .lil-promise-vertical .lil-promise-icon-wrapper {
+        @apply lil-py-1 lil-pl-1;
+    }
+    .lil-promise-vertical .lil-promise-content {
+        @apply lil-py-1 lil-pr-1 lil-pl-1 lil-whitespace-pre-line;
+    }
+}
+

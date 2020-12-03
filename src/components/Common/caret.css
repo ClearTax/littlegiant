@@ -1,0 +1,21 @@
+.lil-caret {
+    @apply lil-h-2 lil-w-2 lil-border-xl lil-border-transparent lil-items-center;
+}
+
+.lil-caret-up {
+    border-right:none;
+    border-bottom: none;
+    /* for ie */
+    transform: translateX(0) translateY(0) rotate(45deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+    @apply lil-border-t-md lil-border-l-md lil-border-font-500 lil-transform lil-rotate-45;
+}
+
+.lil-caret-down {
+    border-top: none;
+    border-left: none;
+    top: -2px;
+    /* for ie */
+    transform: translateX(0) translateY(0) rotate(45deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+    @apply lil-relative lil-border-b-md lil-border-r-md lil-border-font-500 lil-transform lil-rotate-45;
+}
+

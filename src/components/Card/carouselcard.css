@@ -1,0 +1,96 @@
+/*
+The css colors have to be updated with tailwind utility colors
+*/
+.lil-carousel-card {
+  /*Fixed width for lg and xl screens*/
+  @apply lil-rounded-xl lil-w-full lil-bg-white lil-items-center lil-shadow-xl lil-outline-none;
+}
+
+.lil-carousel-card .lil-carousel-card-review {
+  @apply lil-w-5/6;
+}
+
+.lil-carousel-card .lil-carousel-card-image {
+  @apply lil-items-end;
+}
+
+.lil-carousel-card-review > .lil-carousel-card-review-heading {
+  @apply lil-text-s-32 lil-font-bold lil-px-8 lil-py-4 lil-whitespace-normal lil-text-font-500;
+}
+
+.lil-carousel-card-review > .lil-carousel-card-review-content {
+  @apply lil-text-s-20 lil-whitespace-normal lil-px-8 lil-py-4 lil-text-left lil-text-font-200 lil-font-medium;
+}
+
+.lil-carousel-card .lil-carousel-card-footer {
+  @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2;
+}
+
+.lil-carousel-card-footer .lil-carousel-card-footer-image {
+  @apply lil-w-16 lil-h-16 lil-rounded-full lil-bg-none lil-items-center lil-justify-center lil-flex;
+}
+
+.lil-carousel-card-footer .lil-carousel-card-footer-action {
+  @apply lil-btn-link lil-mr-6 lil-text-s-20;
+}
+
+.lil-carousel-card-footer-action:hover,
+.lil-carousel-card-footer-action:focus {
+  @apply lil-outline-none;
+}
+
+@screen md {
+  .lil-carousel-card > .lil-carousel-card-footer {
+    @apply lil-flex lil-justify-between lil-items-center lil-px-6 lil-mt-2 lil-mb-6;
+  }
+
+  .lil-carousel-card-review > .lil-carousel-card-review-heading {
+    @apply lil-text-s-24 lil-font-bold lil-px-6 lil-py-4 lil-whitespace-normal lil-text-font-500;
+  }
+
+  .lil-carousel-card-review > .lil-carousel-card-review-content {
+    @apply lil-text-base lil-whitespace-normal lil-px-6 lil-py-4 lil-text-left;
+  }
+
+  .lil-carousel-card-footer .lil-carousel-card-footer-image {
+    @apply lil-w-10 lil-h-10 lil-rounded-full lil-items-center lil-justify-center lil-flex;
+  }
+
+  .lil-carousel-card-footer .lil-carousel-card-footer-action {
+    @apply lil-btn-link lil-mr-4 lil-text-base;
+  }
+}
+
+@screen sm {
+  .lil-carousel-card {
+    @apply lil-w-full;
+  }
+  .lil-carousel-card .lil-carousel-card-review {
+    @apply lil-w-full;
+  }
+
+  .lil-carousel-card .lil-carousel-card-image {
+    @apply lil-flex lil-items-center lil-justify-center lil-content-end;
+  }
+
+  .lil-carousel-card  .lil-carousel-card-footer {
+    @apply lil-flex lil-justify-between lil-flex-wrap lil-items-center lil-px-0 lil-mt-4;
+  }
+
+  .lil-carousel-card-review > .lil-carousel-card-review-heading {
+    @apply lil-text-s-20 lil-font-bold lil-px-0 lil-py-4 lil-whitespace-normal lil-text-font-500;
+  }
+
+  .lil-carousel-card-review > .lil-carousel-card-review-content {
+    @apply lil-text-s-12 lil-whitespace-normal lil-px-0 lil-py-4 lil-text-left;
+  }
+
+  .lil-carousel-card-footer .lil-carousel-card-footer-image {
+    @apply lil-w-10 lil-h-10 lil-rounded-full lil-items-center lil-justify-center lil-flex;
+  }
+
+  .lil-carousel-card-footer .lil-carousel-card-footer-action {
+    @apply lil-pt-6 lil-btn-link lil-mr-2 lil-text-s-12 lil-font-bold;
+  }
+}
+

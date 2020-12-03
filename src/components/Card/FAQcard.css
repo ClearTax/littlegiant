@@ -1,0 +1,17 @@
+.lil-faqcard {
+  height: 280px;
+  width: 250px;
+  @apply lil-rounded-xl lil-p-5  lil-cursor-pointer lil-text-center lil-m-2 lil-flex-col lil-justify-between lil-bg-font-500;
+}
+
+.lil-faqcard > .lil-faqcard-faq-wrapper {
+  @apply lil-mr-5 lil-w-full;
+}
+
+.lil-faqcard-faq-wrapper .lil-faqcard-faq {
+  @apply lil-text-s-20  lil-text-left lil-text-white lil-font-semibold lil-mr-5 lil-whitespace-normal;
+}
+
+.lil-faqcard > .lil-faqcard-content {
+  @apply lil-text-left lil-text-base lil-opacity-50 lil-text-white lil-mt-6 lil-whitespace-normal;
+}

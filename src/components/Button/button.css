@@ -1,0 +1,41 @@
+/* Button */
+.lil-btn {
+  @apply lil-inline-flex lil-py-3 lil-px-6 lil-rounded-lg lil-text-center lil-justify-center lil-items-center lil-font-bold;
+}
+.lil-btn-blue {
+  @apply lil-bg-blue-350 lil-text-white;
+}
+.lil-btn-white {
+  @apply lil-bg-white lil-text-blue-350;
+}
+.lil-btn-grey {
+  @apply lil-bg-grey-250 lil-text-font-500;
+}
+.lil-btn-link {
+  @apply lil-inline-flex lil-text-blue-350 lil-font-bold lil-text-base;
+}
+.lil-btn-link > .lil-icon {
+  @apply lil-ml-1;
+}
+.lil-btn:hover,
+.lil-btn:focus,
+.lil-btn-link:hover,
+.lil-btn-link:focus {
+  @apply lil-outline-none;
+}
+
+.lil-btn-round {
+  @apply lil-w-16 lil-h-16 lil-rounded-full lil-bg-grey-150 lil-cursor-pointer lil-items-center lil-justify-center lil-flex lil-text-s-24;
+}
+
+.lil-btn-round-white {
+  @apply lil-w-16 lil-h-16 lil-rounded-full lil-bg-white lil-cursor-pointer lil-items-center lil-border-sm lil-border-font-500 lil-justify-center lil-flex lil-text-s-24;
+}
+
+.lil-btn-round-white:hover,
+.lil-btn-round-white:focus,
+.lil-btn-round:hover,
+.lil-btn-round:focus {
+  @apply lil-bg-blue-350 lil-text-white lil-outline-none lil-border-none;
+}
+

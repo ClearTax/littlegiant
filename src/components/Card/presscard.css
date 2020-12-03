@@ -1,0 +1,13 @@
+.lil-presscard {
+  height: 320px;
+  @apply lil-rounded-xl lil-shadow-xl lil-bg-white lil-outline-none lil-align-middle lil-justify-between;
+}
+.lil-presscard > .lil-presscard-heading {
+  @apply lil-text-s-20 lil-font-bold lil-text-font-500 lil-text-center lil-mx-2 lil-my-3 lil-h-12;
+}
+.lil-presscard > .lil-presscard-content {
+  @apply lil-text-s-24 lil-text-blue-350 lil-font-bold lil-h-32  lil-py-6 lil-text-center lil-whitespace-normal;
+}
+.lil-presscard > .lil-presscard-image {
+  @apply lil-flex lil-justify-center lil-items-center lil-mx-2 lil-h-24;
+}

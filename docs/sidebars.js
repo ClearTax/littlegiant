@@ -9,7 +9,49 @@ module.exports = {
   docs: {
     "Getting Started": ["getting-started"],
     Components: [
+      {
+        type: "category",
+        label: "Borders",
+        items: ["border-radius", "border-width"],
+      },
+      "box-shadow",
+      "branding",
+      "button",
+      {
+        type: "category",
+        label: "Cards",
+        items: ["cards","carousel-card", "faq-card", "presscard","product-card"],
+      },
+      "colors",
+      "cursor",
       "grid",
+      {
+        type: "category",
+        label: "Icons",
+        items :["tickmark"]
+      },
+      "input-action",
+      {
+        type: "category",
+        label: "Promise",
+        items: ["promise-h", "promise-v"],
+      },
+      "reinforcement",
+      {
+        type: "category",
+        label: "Table",
+        items: ["table"]
+      },
+      {
+        type: "category",
+        label: "Tabs",
+        items: [
+          "tabs",
+          "line-tab",
+          "vertical-promise-tabs",
+          "vertical-flat-tabs"
+        ]
+      },
       {
         type: "category",
         label: "Typography",
@@ -18,18 +60,10 @@ module.exports = {
           "font-color",
           "font-weight",
           "line-height",
-          "text-alignment"
-        ]
+          "text-alignment",
+        ],
       },
-      "colors",
-      {
-        type: "category",
-        label: "Borders",
-        items: ["border-radius", "border-width"]
-      },
-      "box-shadow",
-      "cursor"
     ],
-    "Responsive Design": ["responsive-design"]
-  }
+    "Responsive Design": ["responsive-design"],
+  },
 };

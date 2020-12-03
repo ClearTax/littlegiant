@@ -1,0 +1,79 @@
+.lil-nav {
+    @apply lil-flex lil-flex-wrap lil-items-center lil-fixed lil-w-full lil-bg-white lil-z-10 lil-h-20 lil-top-0;
+}
+.lil-nav-bg-blur {
+    backdrop-filter: blur(63px);
+    @apply lil-bg-transparent;
+}
+.lil-nav .lil-nav-link {
+    @apply lil-inline-block lil-cursor-pointer;
+}
+.lil-nav-text {
+    @apply lil-text-font-500;
+}
+.lil-dropdown {
+    @apply lil-relative lil-inline-block;
+}
+.lil-dropdown-open:before {
+    content: '';
+    transform: rotate(45deg);
+    /* for IE */
+    border-top: 1px solid rgba(164, 172, 179, 0.2);
+    border-left: 1px solid rgba(164, 172, 179, 0.2);
+    /*  */
+    border-top: 1px solid var(--shadow-xl);
+    border-left: 1px solid var(--shadow-xl);
+    left: 20px;
+    @apply lil-block lil-absolute lil-bg-white lil-z-40 lil-h-4 lil-w-4;
+}
+.lil-dropdown .lil-dropdown-menu {
+    width: 250px;
+    @apply lil-fixed lil-hidden lil-rounded-lg lil-mt-1 lil-shadow-xl;
+}
+.lil-dropdown-open .lil-dropdown-menu {
+    @apply lil-block lil-z-30 lil-bg-white;
+}
+.lil-dropdown-open .lil-dropdown-full-menu {
+    left: 0;
+    right: 0;
+    height: 90vh;
+    border-radius: 0;
+    @apply lil-fixed lil-w-auto lil-shadow-xl;
+}
+.lil-dropdown-submenu:hover .lil-dropdown-submenu-header {
+    @apply lil-bg-blue-150;
+}
+.lil-dropdown-menu .lil-dropdown-menu-item {
+    @apply lil-cursor-pointer lil-rounded-lg lil-my-5;
+}
+.lil-dropdown-menu .lil-dropdown-menu-item:hover {
+    @apply lil-bg-blue-150;
+}
+.lil-toggle {
+    @apply lil-w-4;
+}
+.lil-toggle .lil-toggle-bar {
+    @apply lil-border-b-md lil-border-font-500 lil-w-full lil-mb-1;
+}
+.lil-toggle .lil-toggle-bar-half {
+    @apply lil-w-1/2 lil-float-right lil-mb-0;
+}
+.lil-toggle-close .lil-toggle-bar:first-child {
+    transform: rotate(-45deg);
+    top: 5px;
+    @apply lil-relative;
+}
+.lil-toggle-close .lil-toggle-bar {
+    transform: rotate(45deg);
+    top: -1px;
+    @apply lil-relative;
+}
+.lil-toggle-close .lil-toggle-bar-half {
+    @apply lil-hidden;
+}
+
+@screen sm {
+    .lil-nav {
+        @apply lil-h-12;
+    }
+}

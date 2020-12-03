@@ -1,0 +1,26 @@
+.lil-accordian .lil-accordian-caret {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-top: none;
+    border-left: none;
+    /* for IE */
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    /*  */
+    border-bottom: 2px solid var(--grey-600, black);
+    border-right: 2px solid var(--grey-600, black);
+    @apply lil-h-2 lil-w-2 lil-items-center lil-transform lil-rotate-45;
+}
+.lil-accordian[open] .lil-accordian-caret {
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-right: none;
+    border-bottom: none;
+    /* for IE */
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    /*  */
+    border-top: 2px solid var(--grey-600, black);
+    border-left: 2px solid var(--grey-600, black);
+    @apply lil-h-2 lil-w-2 lil-items-center lil-transform lil-rotate-45;
+}

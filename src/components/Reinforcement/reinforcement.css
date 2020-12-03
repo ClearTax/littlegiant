@@ -1,0 +1,33 @@
+.lil-reinforcement {
+  @apply lil-w-full lil-bg-white lil-flex lil-items-center lil-shadow-xl lil-rounded-xl;
+}
+
+.lil-reinforcement > .lil-reinforcement-content-wrapper {
+  @apply lil-px-12  lil-justify-between lil-w-full lil-flex lil-items-center;
+}
+
+.lil-reinforcement-content-wrapper  .lil-reinforcement-title {
+  @apply lil-text-s-48 lil-text-left lil-font-bold lil-text-font-500;
+}
+
+.lil-reinforcement-content-wrapper  .lil-reinforcement-button-wrapper {
+  @apply lil-flex lil-mt-5;
+}
+
+@screen sm {
+  .lil-reinforcement {
+    @apply lil-w-full lil-flex lil-items-center;
+  }
+  
+  .lil-reinforcement > .lil-reinforcement-content-wrapper {
+    @apply lil-px-4 lil-w-full  lil-justify-between lil-flex-col-reverse;
+  }
+  
+  .lil-reinforcement-content-wrapper  .lil-reinforcement-title {
+    @apply lil-flex-wrap lil-text-s-28 lil-text-left lil-font-bold lil-whitespace-normal;
+  }
+
+  .lil-reinforcement-content-wrapper  .lil-reinforcement-button-wrapper {
+    @apply lil-flex lil-flex-wrap lil-mt-5 lil-justify-between;
+  }
+}

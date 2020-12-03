@@ -1,19 +1,10 @@
 @charset "utf-8";
 
-@tailwind base;
+@import "tailwindcss/base";
 
-h1 {
-  @apply lil-text-3xl lil-font-bold;
-}
-h2 {
-  @apply lil-text-2xl lil-font-bold;
-}
-h3 {
-  @apply lil-text-xl lil-font-bold;
-}
-h4 {
-  @apply lil-text-lg lil-font-bold;
-}
+@import "./index.css";
+@import "tailwindcss/components";
 
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/utilities";
+@import "./variables.css";
+@import "./components/Common/common.css";

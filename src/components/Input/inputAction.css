@@ -1,0 +1,32 @@
+.lil-input-action-wrapper{
+    /*
+    Height and width fixed according to figma to the nearest mutiple of 5
+    */
+    width:inherit;
+    height: 45px;
+    @apply lil-flex lil-justify-between lil-items-center lil-bg-white lil-shadow-sm lil-rounded-md;
+}
+
+.lil-input-action-wrapper > .lil-input{
+    @apply lil-items-center lil-text-s-14 lil-px-2;
+}
+
+.lil-input-action-wrapper > .lil-action{
+    @apply lil-btn lil-btn-link lil-items-center lil-text-base lil-font-bold;
+}
+
+@screen sm{    
+    .lil-input-action-wrapper > .lil-input{
+        @apply lil-items-center lil-text-s-10 lil-px-2;
+    }
+    
+    .lil-input-action-wrapper > .lil-action{
+        @apply lil-btn lil-items-center lil-text-s-12 lil-font-bold;
+    }
+}
+.lil-input:hover,
+.lil-input:focus,
+.lil-action:hover,
+.lil-action:focus{
+    @apply lil-outline-none;
+}

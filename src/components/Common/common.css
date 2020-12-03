@@ -1,0 +1,45 @@
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary:focus {
+    outline: none;
+}
+
+select {
+    background: var(--grey-150);
+    @apply lil-rounded-lg lil-p-3;
+}
+
+/*
+* - border-spacing not supported in tailwind
+*/
+.lil-border-spacing-0 {
+    border-spacing: 0;
+}
+
+@screen xl {
+    .lil-container {
+        @apply lil-w-full;
+        max-width: 1440px;
+        padding-left: 135px;
+        padding-right: 135px;
+        @apply lil-mx-auto;
+    }
+}
+@screen lg {
+    .lil-container {
+        @apply lil-px-6 lil-mx-auto;
+    }
+}
+@screen md {
+    .lil-container {
+        @apply lil-px-6 lil-mx-auto;
+    }
+}
+@screen sm {
+    .lil-container {
+        @apply lil-px-6;
+    }
+}
+

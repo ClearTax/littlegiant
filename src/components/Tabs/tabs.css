@@ -1,0 +1,73 @@
+.lil-tabs {
+    /* fixed height for xl, lg, md screens */
+    height: 100px;
+    @apply lil-flex lil-list-none lil-overflow-x-auto lil-sticky;
+}
+.lil-tabs .lil-tab-active {
+    @apply lil-border-b-lg lil-border-blue-350;
+}
+.lil-tabs > .lil-tab {
+    min-width: 250px;
+    @apply lil-h-full lil-bg-grey-100 lil-m-0 lil-inline-block lil-outline-none lil-text-font-500 lil-text-s-24 lil-font-bold;
+}
+.lil-tab > a:first-child {
+    text-overflow: ellipsis;
+    @apply lil-block lil-h-full lil-w-full lil-px-1 lil-py-4 lil-text-center lil-overflow-hidden;
+}
+.lil-tab .lil-tab-icon {
+    @apply lil-w-8 lil-h-8 lil-my-0 lil-mx-auto; 
+}
+.lil-tab-active .lil-tab-heading-text {
+    @apply lil-text-blue-350 lil-outline-none;
+}
+.lil-tab > a:hover, a:focus, a:active{
+    @apply lil-text-blue-350 lil-no-underline lil-outline-none;
+}
+.lil-tabs-fixed {
+    @apply lil-fixed lil-top-0 lil-right-0 lil-left-0;
+}
+/*For touch devices with sticky hover*/
+@media (hover: none){
+    .lil-tab > a:hover{
+        @apply lil-text-font-500;
+    }
+}
+
+@screen sm {
+    .lil-tabs {
+        height: 60px;
+    }
+    .lil-tabs > .lil-tab {
+        min-width: 150px;
+        @apply lil-text-base lil-mr-2;
+    }
+    .lil-tab > a:first-child {
+        @apply lil-py-1;
+    }
+    .lil-tab .lil-tab-icon {
+        @apply lil-w-5 lil-h-5 lil-inline lil-mr-2; 
+    }
+}
+
+/* Rounded tabs */
+.lil-capsule-tabs {
+    /* for capsule shape */
+    border-radius: 1000px;
+    @apply lil-bg-grey-150 lil-h-full lil-flex lil-overflow-x-auto;
+}
+.lil-capsule-tabs .lil-capsule-tab {
+    /* for capsule shape */
+    border-radius: 1000px;
+    @apply lil-flex lil-items-center lil-cursor-pointer;
+}
+.lil-capsule-tabs .lil-capsule-tab-active {
+    @apply lil-bg-blue-350 lil-text-white lil-flex lil-items-center lil-h-full;
+}
+@screen sm {
+    .lil-capsule-tabs {
+        @apply lil-sticky;
+    }
+    .lil-capsule-tabs .lil-capsule-tab {
+        min-width: 200px;
+    }
+}

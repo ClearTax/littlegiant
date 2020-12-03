@@ -1,89 +1,193 @@
+/**
+ * Not used css var for IE support. Add variable in variables.css when adding new color here 
+ */
 module.exports = {
   theme: {
     colors: {
       transparent: "transparent",
       blue: {
-        50: "#CFE4FF",
-        100: "#7FB7FE",
-        200: "#2F89FC",
-        300: "#185EB8",
-        400: "#003273"
+        50:  "#F1F7FF",
+        100: "#D0E4FE",
+        150: "#CFE4FF",
+        200: "#8ABBFD",
+        250: "#7FB7FE",
+        300: "#2F89FC",
+        350: "#1678FB",
+        400: "#185EB8",
+        450: "#0F54B0",
+        500: "#003273",
+        550: "#07244B",
+      },
+      clearsky: {
+        50:  "#F3F6FB",
+        100: "#E7F7FF",
+        200: "#C4EAFF",
+        300: "#89D6FF",
+        400: "#6096B2",
+        500: "#29404C",
       },
       green: {
-        100: "#7FE3AD",
-        200: "#2BCF76",
-        300: "#169451"
+        100: "#DBF9E9",
+        150: "#A4EFC9",
+        200: "#7FE3AD",
+        250: "#4ADF93",
+        300: "#2BCF76",
+        350: "#16CC65",
+        375: "#61C584",
+        400: "#349C67",
+        450: "#169451",
+        500: "#16432C",
+      },
+      pink: {
+        100: "#FDE4EC",
+        200: "#FABCCF",
+        300: "#F579A0",
+        400: "#AB5570",
+        500: "#492430",
+      },
+      purple: {
+        100: "#E5E2FD",
+        200: "#BDB7FA",
+        300: "#7C6FF5",
+        400: "#574EAB",
+        500: "#252149",
       },
       orange: {
-        100: "#FFC194",
-        200: "#FE9D54",
-        300: "#B9642A"
+        100: "#FEEADC",
+        150: "#FDCAA7",
+        200: "#FFC194",
+        250: "#FE9D54",
+        300: "#FB9650",
+        350: "#B9642A",
+        400: "#B06938",
+        500: "#4B2D18",
       },
       grey: {
-        100: "#FAFBFF",
-        200: "#CFD4DD",
-        300: "#ADB1BB",
-        400: "#8B8F99",
-        500: "#686D77"
+        100: "#FAFAFA",
+        150: "#F5F5F5",
+        175: "#F7F8FA",
+        190: "#F8F9FC",
+        200: "#FAFBFF",
+        250: "#EEEEEE",
+        300: "#E0E0E0",
+        350: "#D6D6D6",
+        400: "#CFD4DD",
+        425: "#C4C4C4",
+        450: "#ADB1BB",
+        500: "#8B8F99",
+        550: "#686D77",
+        600: "#23282E",
+        850: "#1C314F",
+      },
+      yellow: {
+        100: "#FEF6DC",
+        200: "#FDE9A8",
+        300: "#FED580",
+        400: "#FCD452",
+        500: "#B09439",
+        600: "#4C4019",
       },
       font: {
-        100: "#828999",
-        200: "#464D5E",
-        300: "#303654"
+        100: "#E5E5E9",
+        200: "#9092A3",
+        300: "#828999",
+        400: "#464D5E",
+        500: "#314259",
+        600: "#303654",
       },
       white: "#ffffff",
-      black: "#000000"
+      black: "#000000",
+      red: "#FA324C",
     },
     borderRadius: {
       sm: "2px",
       md: "4px",
       lg: "8px",
-      full: "50%"
+      xl: "12px",
+      full: "50%",
     },
     borderWidth: {
       sm: "1px",
       md: "2px",
       lg: "3px",
-      xl: "4px"
+      xl: "4px",
     },
     boxShadow: {
       sm: "0 8px 13px rgba(70, 74, 85, 0.08)",
       md: "0 13px 22px rgba(70, 74, 85, 0.08)",
-      lg: "0 0 34px rgba(70, 74, 85, 0.10)"
+      lg: "0 0 34px rgba(70, 74, 85, 0.10)",
+      xl: "0px 30px 60px 0px rgba(164, 172, 179, 0.2)",
+      none: "none",
     },
     cursor: {
       pointer: "pointer",
       text: "text",
-      "not-allowed": "not-allowed"
+      "not-allowed": "not-allowed",
     },
     fill: false,
     fontFamily: false,
+    fontSize: {
+      "s-10": "10px",
+      "s-12": "12px",
+      "s-14": "14px",
+      base: "16px",
+      "s-18": "18px",
+      "s-20": "20px",
+      "s-24": "24px",
+      "s-28": "28px",
+      "s-32": "32px",
+      "s-36": "36px",
+      "s-40": "40px",
+      "s-48": "48px",
+      "s-56": "56px",
+      "s-64": "64px",
+    },
     fontWeight: {
-      light: 300,
-      normal: 400,
-      bold: 700
+      hairline: "100",
+      thin: "200",
+      light: "300",
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+      extrabold: "800",
+      black: "900",
+      extrablack: "950",
     },
     letterSpacing: false,
     lineHeight: {
       none: 1,
       tight: 1.2,
-      loose: 1.5
+      loose: 1.5,
     },
-    opacity: false,
+    maxWidth:{
+      'screen-xl': "1440px", 
+    },
+    opacity: {
+      0: "0",
+      25: "0.25",
+      50: "0.5",
+      75: "0.75",
+      100: "1",
+    },
     screens: {
       sm: {
-        max: "768px"
+        max: "767px",
       },
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px"
+      md: { min: "768px", max: "1023px" },
+      lg: { min: "1024px", max: "1279px" },
+      xl: { min: "1280px" },
     },
     stroke: false,
     zIndex: {
       0: 0,
       10: 10,
-      20: 20
-    }
+      20: 20,
+      30: 30,
+      40: 40,
+      400: 400,
+      500: 500, // max z-index value
+    },
   },
   variants: {},
   plugins: [],
@@ -91,7 +195,7 @@ module.exports = {
     accessibility: false,
     fill: false,
     stroke: false,
-    tableLayout: false
+    tableLayout: false,
   },
-  prefix: "lil-"
+  prefix: "lil-",
 };
