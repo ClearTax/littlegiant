@@ -31,7 +31,6 @@ Please take a look at [this section](https://keepachangelog.com/en/1.0.0/#how) o
     - Xl tick mark [(#46)](https://github.com/ClearTax/littlegiant/pull/46)
     - Rounded Table [(#46)](https://github.com/ClearTax/littlegiant/pull/46)
     - Brands component [(#35)](https://github.com/ClearTax/littlegiant/pull/35)[(#52)](https://github.com/ClearTax/littlegiant/pull/52)
-  
 
 - **Setup & Standards**
   - Components Setup [(#2)](https://github.com/ClearTax/littlegiant/pull/2)
