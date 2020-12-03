@@ -20,6 +20,7 @@
   bottom: -1rem;
   right: 50%;
   transform: translateX(50%);
+  @apply lil-absolute lil-bg-white lil-text-s-18 lil-font-medium lil-px-4 lil-text-font-300;
 }
 
 @screen md {
@@ -40,5 +41,9 @@
 
   .lil-branding .lil-branding-triplet {
     @apply lil-justify-between lil-w-full lil-my-4 lil-py-0;
+  }
+
+  .lil-brand-text-bottom-center {
+    @apply lil-text-base lil-px-2 lil-whitespace-no-wrap;
   }
 }
