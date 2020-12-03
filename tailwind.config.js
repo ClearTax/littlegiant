@@ -1,3 +1,6 @@
+/**
+ * Not used css var for IE support. Add variable in variables.css when adding new color here 
+ */
 module.exports = {
   theme: {
     colors: {
@@ -9,7 +12,7 @@ module.exports = {
         200: "#8ABBFD",
         250: "#7FB7FE",
         300: "#2F89FC",
-        350: "var(--blue-350, #1678FB)",
+        350: "#1678FB",
         400: "#185EB8",
         450: "#0F54B0",
         500: "#003273",
@@ -60,19 +63,21 @@ module.exports = {
         500: "#4B2D18",
       },
       grey: {
-        100: "var(--grey-100, #FAFAFA)",
-        150: "var(--grey-150, #F5F5F5)",
-        175: "var(--grey-175, #F7F8FA)",
-        200: "var(--grey-200, #FAFBFF)",
-        250: "var(--grey-250, #EEEEEE)",
-        300: "var(--grey-300, #E0E0E0)",
-        350: "var(--grey-350, #D6D6D6)",
-        400: "var(--grey-400, #CFD4DD)",
-        425: "var(--grey-400, #C4C4C4)",
-        450: "var(--grey-450, #ADB1BB)",
-        500: "var(--grey-500, #8B8F99)",
-        550: "var(--grey-550, #686D77)",
-        600: "var(--grey-600, #23282E)",
+        100: "#FAFAFA",
+        150: "#F5F5F5",
+        175: "#F7F8FA",
+        190: "#F8F9FC",
+        200: "#FAFBFF",
+        250: "#EEEEEE",
+        300: "#E0E0E0",
+        350: "#D6D6D6",
+        400: "#CFD4DD",
+        425: "#C4C4C4",
+        450: "#ADB1BB",
+        500: "#8B8F99",
+        550: "#686D77",
+        600: "#23282E",
+        850: "#1C314F",
       },
       yellow: {
         100: "#FEF6DC",
@@ -111,7 +116,8 @@ module.exports = {
       sm: "0 8px 13px rgba(70, 74, 85, 0.08)",
       md: "0 13px 22px rgba(70, 74, 85, 0.08)",
       lg: "0 0 34px rgba(70, 74, 85, 0.10)",
-      xl: "0px 30px 60px 0px var(--shadow-xl, rgba(164, 172, 179, 0.2))",
+      xl: "0px 30px 60px 0px rgba(164, 172, 179, 0.2)",
+      none: "none",
     },
     cursor: {
       pointer: "pointer",
