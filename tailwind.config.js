@@ -71,6 +71,10 @@ module.exports = {
         250: "#EEEEEE",
         300: "#E0E0E0",
         350: "#D6D6D6",
+<<<<<<< HEAD
+=======
+        380: "#D1D3D5",
+>>>>>>> f892fe1f754c01b12ddbe7e2ddf3039301e688c9
         400: "#CFD4DD",
         425: "#C4C4C4",
         450: "#ADB1BB",
@@ -78,6 +82,11 @@ module.exports = {
         550: "#686D77",
         600: "#23282E",
         850: "#1C314F",
+<<<<<<< HEAD
+=======
+        880: "#181F2A",
+        900: "#2C323C",
+>>>>>>> f892fe1f754c01b12ddbe7e2ddf3039301e688c9
       },
       yellow: {
         100: "#FEF6DC",
@@ -104,6 +113,10 @@ module.exports = {
       md: "4px",
       lg: "8px",
       xl: "12px",
+<<<<<<< HEAD
+=======
+      xxl: "16px",
+>>>>>>> f892fe1f754c01b12ddbe7e2ddf3039301e688c9
       full: "50%",
     },
     borderWidth: {
