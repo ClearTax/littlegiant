@@ -71,6 +71,7 @@ module.exports = {
         250: "#EEEEEE",
         300: "#E0E0E0",
         350: "#D6D6D6",
+        380: "#D1D3D5",
         400: "#CFD4DD",
         425: "#C4C4C4",
         450: "#ADB1BB",
@@ -78,6 +79,8 @@ module.exports = {
         550: "#686D77",
         600: "#23282E",
         850: "#1C314F",
+        880: "#181F2A",
+        900: "#2C323C",
       },
       yellow: {
         100: "#FEF6DC",
@@ -104,6 +107,7 @@ module.exports = {
       md: "4px",
       lg: "8px",
       xl: "12px",
+      xxl: "16px",
       full: "50%",
     },
     borderWidth: {
