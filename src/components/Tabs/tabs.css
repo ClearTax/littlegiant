@@ -20,7 +20,7 @@
 .lil-tab-active .lil-tab-heading-text {
     @apply lil-text-blue-350 lil-outline-none;
 }
-.lil-tab > a:hover, a:focus, a:active{
+.lil-tab > a:hover, .lil-tab > a:focus, .lil-tab > a:active{
     @apply lil-text-blue-350 lil-no-underline lil-outline-none;
 }
 .lil-tabs-fixed {
