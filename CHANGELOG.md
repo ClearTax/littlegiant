@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file. The format 
 
 Please take a look at [this section](https://keepachangelog.com/en/1.0.0/#how) on guidelines for writing a Changelog.
 
+## Release v1.0.1 (2020-12-17)
+
+### Changed in [1.0.1]
+  - **Configurations**
+    - Added new colors & borders for black page [(#57)](https://github.com/ClearTax/littlegiant/pull/57)
+  - **Fixes**
+    - Fixed anchor tab bug found in liltab.css [(#58)](https://github.com/ClearTax/littlegiant/pull/58) 
+  
+
 ## Release v1.0.0 (2020-12-03)
 
 ### Added in [1.0.0]
