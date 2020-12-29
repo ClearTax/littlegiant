@@ -2,6 +2,11 @@
 .lil-btn {
   @apply lil-inline-flex lil-py-3 lil-px-6 lil-rounded-lg lil-text-center lil-justify-center lil-items-center lil-font-bold;
 }
+
+.lil-btn-disabled {
+  @apply lil-opacity-50 lil-pointer-events-none;
+}
+
 .lil-btn-blue {
   @apply lil-bg-blue-350 lil-text-white;
 }
