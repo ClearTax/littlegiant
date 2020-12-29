@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. The format 
 
 Please take a look at [this section](https://keepachangelog.com/en/1.0.0/#how) on guidelines for writing a Changelog.
 
+## Release v1.0.2 (2020-12-29)
+
+### Changed in [1.0.2]
+  - **Additions**
+    - Added disabled class for buttons [(#63)](https://github.com/ClearTax/littlegiant/pull/63)
+
 ## Release v1.0.1 (2020-12-17)
 
 ### Changed in [1.0.1]
