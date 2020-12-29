@@ -758,6 +758,11 @@ video {
   font-weight: 700;
 }
 
+.lil-btn-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .lil-btn-blue {
   --bg-opacity: 1;
   background-color: #1678FB;
