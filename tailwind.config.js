@@ -1,5 +1,6 @@
 /**
- * Not used css var for IE support. Add variable in variables.css when adding new color here 
+ * Not used css var for IE support.
+ * Add variable in variables.css when adding new color here 
  */
 module.exports = {
   theme: {
