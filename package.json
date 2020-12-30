@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "prebuild:tailwind": "sh ./updateVersion.sh",
     "build": "npm-run-all -s build:tailwind build:uglify",
     "build:tailwind": "npx postcss src/littlegiant.css -o css/littlegiant.css",
     "build:tailwind-watch": "npx postcss src/littlegiant.css -o css/littlegiant.css --watch",
