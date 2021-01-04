@@ -1,4 +1,4 @@
-/* version 1.0.2 */
+/* version 1.0.3 */
 
 @charset "utf-8";
 
@@ -2303,7 +2303,10 @@ The css colors have to be updated with tailwind utility colors
 
 .lil-flat-tab-active {
   position: relative;
-  @import  lil-bg-grey-190;
+  /* for IE */
+  background-color:  #F8F9FC;
+  /* other */
+  background-color: var(--grey-190,#F8F9FC);
 }
 
 .lil-flat-tab-active:before {
@@ -20742,6 +20745,7 @@ p {
   --grey-100: #FAFAFA;
   --grey-150: #F5F5F5;
   --grey-175: #F7F8FA;
+  --grey-190: #F8F9FC;
   --grey-200: #FAFBFF;
   --grey-250: #EEEEEE;
   --grey-300: #E0E0E0;

@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. The format 
 
 Please take a look at [this section](https://keepachangelog.com/en/1.0.0/#how) on guidelines for writing a Changelog.
 
+## Release v1.0.3 (2021-01-04)
+
+### Changed in [1.0.3]
+  - **Fixes**
+    - Replaced @import with variable to use littlegiant with mincssextract webpack plugin for other consumers [(#69)](https://github.com/ClearTax/littlegiant/pull/69)
+
 ## Release v1.0.2 (2020-12-29)
 
 ### Changed in [1.0.2]
