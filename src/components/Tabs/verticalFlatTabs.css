@@ -12,7 +12,7 @@
 
 .lil-flat-tab-active {
     position: relative;
-    @import  lil-bg-grey-190;
+    background-color: var(--grey-190);
 }
 
 .lil-flat-tab-active:before {
