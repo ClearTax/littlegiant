@@ -12,7 +12,10 @@
 
 .lil-flat-tab-active {
     position: relative;
-    background-color: var(--grey-190);
+    /* for IE */
+    background-color:  #F8F9FC;
+    /* other */
+    background-color: var(--grey-190,#F8F9FC);
 }
 
 .lil-flat-tab-active:before {
