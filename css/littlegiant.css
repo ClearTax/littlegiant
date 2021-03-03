@@ -16016,6 +16016,18 @@ p {
   box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
 }
 
+.lil--shadow-sm{
+  box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+}
+
+.lil--shadow-md{
+  box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+}
+
+.lil--shadow-xl{
+  box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+}
+
 .lil-shadow-none{
   box-shadow: none;
 }
@@ -16036,6 +16048,18 @@ p {
   box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
 }
 
+.hover\:lil--shadow-sm:hover{
+  box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+}
+
+.hover\:lil--shadow-md:hover{
+  box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+}
+
+.hover\:lil--shadow-xl:hover{
+  box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+}
+
 .hover\:lil-shadow-none:hover{
   box-shadow: none;
 }
@@ -16054,6 +16078,18 @@ p {
 
 .focus\:lil-shadow-xl:focus{
   box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
+}
+
+.focus\:lil--shadow-sm:focus{
+  box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+}
+
+.focus\:lil--shadow-md:focus{
+  box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+}
+
+.focus\:lil--shadow-xl:focus{
+  box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
 }
 
 .focus\:lil-shadow-none:focus{
@@ -34419,6 +34455,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .sm\:lil--shadow-sm{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .sm\:lil--shadow-md{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .sm\:lil--shadow-xl{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .sm\:lil-shadow-none{
     box-shadow: none;
   }
@@ -34439,6 +34487,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .sm\:hover\:lil--shadow-sm:hover{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .sm\:hover\:lil--shadow-md:hover{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .sm\:hover\:lil--shadow-xl:hover{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .sm\:hover\:lil-shadow-none:hover{
     box-shadow: none;
   }
@@ -34457,6 +34517,18 @@ select {
 
   .sm\:focus\:lil-shadow-xl:focus{
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
+  .sm\:focus\:lil--shadow-sm:focus{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .sm\:focus\:lil--shadow-md:focus{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .sm\:focus\:lil--shadow-xl:focus{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
   .sm\:focus\:lil-shadow-none:focus{
@@ -52677,6 +52749,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .md\:lil--shadow-sm{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .md\:lil--shadow-md{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .md\:lil--shadow-xl{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .md\:lil-shadow-none{
     box-shadow: none;
   }
@@ -52697,6 +52781,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .md\:hover\:lil--shadow-sm:hover{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .md\:hover\:lil--shadow-md:hover{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .md\:hover\:lil--shadow-xl:hover{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .md\:hover\:lil-shadow-none:hover{
     box-shadow: none;
   }
@@ -52715,6 +52811,18 @@ select {
 
   .md\:focus\:lil-shadow-xl:focus{
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
+  .md\:focus\:lil--shadow-sm:focus{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .md\:focus\:lil--shadow-md:focus{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .md\:focus\:lil--shadow-xl:focus{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
   .md\:focus\:lil-shadow-none:focus{
@@ -70935,6 +71043,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .lg\:lil--shadow-sm{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .lg\:lil--shadow-md{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .lg\:lil--shadow-xl{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .lg\:lil-shadow-none{
     box-shadow: none;
   }
@@ -70955,6 +71075,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .lg\:hover\:lil--shadow-sm:hover{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .lg\:hover\:lil--shadow-md:hover{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .lg\:hover\:lil--shadow-xl:hover{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .lg\:hover\:lil-shadow-none:hover{
     box-shadow: none;
   }
@@ -70973,6 +71105,18 @@ select {
 
   .lg\:focus\:lil-shadow-xl:focus{
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
+  .lg\:focus\:lil--shadow-sm:focus{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .lg\:focus\:lil--shadow-md:focus{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .lg\:focus\:lil--shadow-xl:focus{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
   .lg\:focus\:lil-shadow-none:focus{
@@ -89193,6 +89337,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .xl\:lil--shadow-sm{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .xl\:lil--shadow-md{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .xl\:lil--shadow-xl{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .xl\:lil-shadow-none{
     box-shadow: none;
   }
@@ -89213,6 +89369,18 @@ select {
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
+  .xl\:hover\:lil--shadow-sm:hover{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .xl\:hover\:lil--shadow-md:hover{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .xl\:hover\:lil--shadow-xl:hover{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
   .xl\:hover\:lil-shadow-none:hover{
     box-shadow: none;
   }
@@ -89231,6 +89399,18 @@ select {
 
   .xl\:focus\:lil-shadow-xl:focus{
     box-shadow: 0px 30px 60px 0px rgba(164, 172, 179, 0.2);
+  }
+
+  .xl\:focus\:lil--shadow-sm:focus{
+    box-shadow: 0 -8px 13px rgba(70, 74, 85, 0.08);
+  }
+
+  .xl\:focus\:lil--shadow-md:focus{
+    box-shadow: 0 -13px 22px rgba(70, 74, 85, 0.08);
+  }
+
+  .xl\:focus\:lil--shadow-xl:focus{
+    box-shadow: 0px -30px 60px 0px rgba(164, 172, 179, 0.2);
   }
 
   .xl\:focus\:lil-shadow-none:focus{
