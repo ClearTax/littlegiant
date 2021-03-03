@@ -122,6 +122,9 @@ module.exports = {
       md: "0 13px 22px rgba(70, 74, 85, 0.08)",
       lg: "0 0 34px rgba(70, 74, 85, 0.10)",
       xl: "0px 30px 60px 0px rgba(164, 172, 179, 0.2)",
+      "-sm": "0 -8px 13px rgba(70, 74, 85, 0.08)",
+      "-md": "0 -13px 22px rgba(70, 74, 85, 0.08)",
+      "-xl": "0px -30px 60px 0px rgba(164, 172, 179, 0.2)",
       none: "none",
     },
     cursor: {
