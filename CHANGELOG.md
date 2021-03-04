@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file. The format 
 
 Please take a look at [this section](https://keepachangelog.com/en/1.0.0/#how) on guidelines for writing a Changelog.
 
+## Release v1.0.5 (2021-03-04)
+
+### Changed in [1.0.5]
+  - **Fixes**
+    - fixed values for negative shadows y-axis [(#79)](https://github.com/ClearTax/littlegiant/pull/79)
+
+
+
 ## Release v1.0.4 (2021-03-03)
 
 ### Changed in [1.0.4]
